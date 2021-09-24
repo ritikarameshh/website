@@ -187,6 +187,7 @@ main {
     -webkit-animation: Animation 4s ease infinite;
     -moz-animation: Animation 4s ease infinite;
     animation: Animation 4s ease infinite;
+    -webkit-margin-after: 10px;
 }
 #card2 {
     padding:50px;
@@ -198,6 +199,7 @@ main {
     -webkit-animation: Animation 4s ease infinite;
     -moz-animation: Animation 4s ease infinite;
     animation: Animation 4s ease infinite;
+    -webkit-margin-after: 10px;
 }
 #card3 {
     padding: 50px;
@@ -209,6 +211,7 @@ main {
     -webkit-animation: Animation 4s ease infinite;
     -moz-animation: Animation 4s ease infinite;
     animation: Animation 4s ease infinite;
+    -webkit-margin-after: 10px;
 }
 @-webkit-keyframes Animation {
     0%{background-position:0% 11%}
