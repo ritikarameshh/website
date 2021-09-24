@@ -1,0 +1,286 @@
+@charset "utf-8";
+
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;700&display=swap');
+
+/* CSS Document by Ritika Ramesh*/
+
+/*-------------------------------CSS RESET-------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* css for exceptions */
+/* fixes tap to click on safari */
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+/*---------------------------------------------------------------*/
+
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 100;
+}
+h3 {
+    font-size: 20px;
+}
+p {
+    font-size: 16px;
+}
+
+body {
+    margin: 25px;
+    font-family: 'Mukta', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-img img {
+    width: 75px;
+}
+
+/* mobile nav css */
+nav svg {
+    height: 35px;
+    stroke-width: 1;
+    cursor: pointer;
+}
+.hamburger-nav {
+    margin-top: 15px;
+    display: none;
+    background-color: white;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: fixed;
+    right: 0px;
+    margin-right: 25px;
+    z-index: 5;
+}
+.hamburger-nav div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.hamburger-nav a {
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+    text-align: right;
+    padding: 10px;
+    border-radius: 10px;
+}
+.hamburger-nav a:hover {
+    background-color: rgb(6, 6, 89);
+    color: white;
+    opacity: 0.5;
+}
+
+/* regular nav css */
+#tablet-nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#tablet-nav .nav-end {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+#tablet-nav .nav-end a {
+    font-weight: 100;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+#tablet-nav .nav-end a:hover {
+    background-color: rgb(6, 6, 89);
+    color: white;
+    opacity: 0.5;    
+    border-radius: 10px;
+}
+
+main {
+    margin: 50px auto;
+    text-align: right;
+}
+.description {
+    margin-top: 15px;
+    font-weight: 100;
+}
+
+#my-work {
+    margin: 50px auto;
+    text-align: center;
+}
+#my-work a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.categories {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#card1 {
+    padding: 50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(120deg, rgba(250, 225, 162, 0.78), rgb(255, 148, 173), rgba(141, 104, 222, 0.8));
+    background-size: 200% 170%;
+    -webkit-animation: Animation 4s ease infinite;
+    -moz-animation: Animation 4s ease infinite;
+    animation: Animation 4s ease infinite;
+}
+#card2 {
+    padding:50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(120deg, rgba(23, 118, 112, 0.78), rgb(11, 17, 82), rgba(14, 58, 5));
+    background-size: 200% 170%;
+    -webkit-animation: Animation 4s ease infinite;
+    -moz-animation: Animation 4s ease infinite;
+    animation: Animation 4s ease infinite;
+}
+#card3 {
+    padding: 50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(120deg, rgba(0, 46, 5, 0.78), rgb(89, 1, 22), rgba(21, 8, 49, 0.8));
+    background-size: 200% 170%;
+    -webkit-animation: Animation 4s ease infinite;
+    -moz-animation: Animation 4s ease infinite;
+    animation: Animation 4s ease infinite;
+}
+@-webkit-keyframes Animation {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+@keyframes Animation {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+.categories a:hover {
+    opacity: 0.75;
+}
+footer {
+    text-align: center;
+    font-weight: 100;
+}
+
+/* from 320px to 768 px use hamburger menu */
+@media only screen and (min-width: 320px) and (max-width: 768px) 
+{
+    #tablet-nav {
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) 
+{
+    body {
+        max-width: 720px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 20px;
+    }
+    a {
+        font-size: 18px;
+    }
+    #mobile-nav {
+        display: none;
+    }
+    .hamburger-nav {
+        display: none;
+    }
+    #tablet-nav {
+        display: block;
+    }
+    #my-work {
+        margin: 95px auto;
+    }
+    /* categories as rows */
+    /* .categories {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    #card1, #card2, #card3 {
+        width: 100%;
+    } */
+}
