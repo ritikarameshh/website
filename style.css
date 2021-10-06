@@ -171,15 +171,25 @@ main {
     margin: 50px auto;
     text-align: center;
 }
+
+#my-work h3{
+    margin-top:60px;
+}
 #my-work a {
     text-decoration: none;
     font-size: 25px;
 }
 .categories {
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.see-all {
+    color: gray;
+    text-align: right;
+    font-size: 10px;
+    margin-right: 5px;
 }
 
 
@@ -292,4 +302,21 @@ footer {
     #card1, #card2, #card3 {
         width: 100%;
     } */
+}
+
+
+/* ------------------------------------------------------------ */
+/* css for single project page */
+
+.project section {
+    margin: 25px 0;
+    text-align: center;
+}
+.project h2 {
+    color: gray;
+}
+.project p {
+    margin-top: 5px;
+    color: black;
+    text-align: left;
 }
