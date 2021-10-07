@@ -61,14 +61,29 @@ table {
   }
 /*---------------------------------------------------------------*/
 
-h1 {
+h1{
+    font-family: 'Euphoria Script', cursive;
+    font-size:45px;
+
+    background: linear-gradient(to right, rgb(17, 5, 143) 20%, rgb(82, 2, 17) 40%, rgb(121, 21, 126) 60%, rgb(0, 68, 120) 80%);
+    background-size: 150% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+a{
+    text-decoration: none;
+}
+
+h2 {
     font-size: 28px;
 }
-h2 {
+h3 {
     font-size: 24px;
     font-weight: 100;
 }
-h3 {
+h4 {
     font-size: 20px;
 }
 p {
@@ -167,15 +182,15 @@ main {
     line-height: 32px;
 }
 
-#my-work {
+.my-work {
     margin: 50px auto;
     text-align: center;
 }
 
-#my-work h3{
+.my-work h3{
     margin-top:60px;
 }
-#my-work a {
+.my-work a {
     text-decoration: none;
     font-size: 25px;
 }
@@ -210,7 +225,7 @@ main {
     text-decoration: none;
     color: white;
     border-radius: 10px;
-    background: linear-gradient(120deg, rgba(23, 118, 112, 0.78), rgb(11, 17, 82), rgba(14, 58, 5));
+    background: linear-gradient(120deg, rgba(141, 104, 222, 0.8), rgb(11, 17, 82), rgba(14, 58, 5));
     background-size: 200% 170%;
     -webkit-animation: Animation 4s ease infinite;
     -moz-animation: Animation 4s ease infinite;
@@ -229,6 +244,32 @@ main {
     animation: Animation 4s ease infinite;
     -webkit-margin-after: 10px;
 }
+#card4 {
+    padding: 50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(120deg, rgba(21, 8, 49, 0.8), rgb(157, 22, 22), rgba(196, 107, 12, 0.8));
+    background-size: 200% 170%;
+    -webkit-animation: Animation 4s ease infinite;
+    -moz-animation: Animation 4s ease infinite;
+    animation: Animation 4s ease infinite;
+    -webkit-margin-after: 10px;
+}
+
+#card5 {
+    padding: 50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background: linear-gradient(120deg, rgba(196, 107, 12, 0.8), rgb(22, 99, 157), rgba(12, 196, 64, 0.8));
+    background-size: 200% 170%;
+    -webkit-animation: Animation 4s ease infinite;
+    -moz-animation: Animation 4s ease infinite;
+    animation: Animation 4s ease infinite;
+    -webkit-margin-after: 10px;
+}
+
 @-webkit-keyframes Animation {
     0%{background-position:0% 11%}
     50%{background-position:100% 90%}
@@ -252,6 +293,139 @@ footer {
     font-weight: 100;
 }
 
+/* ------------------------------------------------------------ */
+/* css for single project page */
+
+.project .logo-img{
+    width:125px;
+    margin-top:20px;
+    border:none;
+}
+
+.project section {
+    margin: 25px 0;
+    text-align: center;
+}
+.project h3 {
+    color: gray;
+    margin-bottom:20px;
+}
+.project p, .research li, .function li{
+    font-family: 'Mukta', sans-serif;
+    margin-top: 10px;
+    color: black;
+    text-align: left;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+#design img{
+    border:none;
+    width:100%;
+    padding-top:20px;
+}
+
+hr {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.project h3{
+    color: gray;
+    font-weight: 100;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.project img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 86%;
+    border: 0.1px solid gray;
+}
+
+
+.links button{
+    margin:10px;
+}
+
+.button{
+    margin-top:20px;
+}
+
+button{
+    font-family: 'Mukta', sans-serif;
+    font-weight: 100;
+    font-size:16px;
+    letter-spacing: 2.3px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(189, 96, 147, 0.78), rgb(143, 46, 69), rgba(92, 22, 84, 0.927));
+    background-size: 200% 170%;
+    -webkit-animation: Animation 4s ease infinite;
+    -moz-animation: Animation 4s ease infinite;
+    animation: Animation 12s ease infinite;
+    -webkit-margin-after: 10px;
+}
+
+.button2{
+    background: linear-gradient(90deg, rgba(165, 187, 84, 0.78), rgb(29, 110, 134), rgba(13, 31, 70, 0.927));
+    background-size: 200% 170%;
+    -webkit-animation: Animation 4s ease infinite;
+    -moz-animation: Animation 4s ease infinite;
+    animation: Animation 9s ease infinite;
+    -webkit-margin-after: 10px;
+}
+
+/* css for about me page */
+
+.about-me p, .about-me2 p{
+    font-size:18px;
+    line-height: 25px;
+    font-weight:100;
+    text-align: left;
+    
+}
+
+.about-me h2{
+    margin-bottom:20px;
+}
+
+.about-me img{
+    width:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:20px;
+
+}
+
+#description1{
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+
+#fluffy aside{
+    font-size:18px;
+    line-height: 25px;
+    font-weight:300;
+    margin-top:50px;
+    margin-bottom:10px;
+    text-align: center;
+}
+
+#fluffy img{
+    width:250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
 /* from 320px to 768 px use hamburger menu */
 @media only screen and (min-width: 320px) and (max-width: 768px) 
 {
@@ -266,16 +440,20 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
-    h1 {
-        font-size: 32px;
+
+    h1{
+        font-size: 58px;
     }
     h2 {
+        font-size: 32px;
+    }
+    h3 {
         font-size: 28px;
     }
     h3 {
         font-size: 24px;
     }
-    p {
+    p, li {
         font-size: 20px;
     }
     a {
@@ -290,33 +468,47 @@ footer {
     #tablet-nav {
         display: block;
     }
-    #my-work {
+    .my-work {
         margin: 95px auto;
     }
-    /* categories as rows */
-    /* .categories {
+
+    /* css for tablet about me page */
+    main{
+        margin-top:90px;
+    }
+    #description1, .about-me2 p{
+        text-align: right;
+    }
+    .about-me img{
+        float:left;
+        margin-left:20px;
+        margin-right:35px;
+        margin-top:60px;
+        width:280px;
+    }
+
+    #fluffy{
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        padding-top:100px;
+        padding-right:20px;
+        
     }
-    #card1, #card2, #card3 {
-        width: 100%;
-    } */
+    #fluffy aside{
+        margin-left:100px;
+        margin-right:20px;
+    }
+
+    #fluffy img{
+        margin-right:100px;
+        width:320px;
+    }
+
+    footer{
+       
+        padding-top:60px;
+    }
+   
 }
 
 
-/* ------------------------------------------------------------ */
-/* css for single project page */
-
-.project section {
-    margin: 25px 0;
-    text-align: center;
-}
-.project h2 {
-    color: gray;
-}
-.project p {
-    margin-top: 5px;
-    color: black;
-    text-align: left;
-}
