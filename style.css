@@ -379,6 +379,10 @@ button{
     -webkit-margin-after: 10px;
 }
 
+.tools p{
+    text-align: center;
+}
+
 /* css for about me page */
 
 .about-me p, .about-me2 p{
