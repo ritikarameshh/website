@@ -61,6 +61,7 @@ table {
   }
 /*---------------------------------------------------------------*/
 
+
 h1{
     font-family: 'Euphoria Script', cursive;
     font-size:45px;
@@ -293,6 +294,8 @@ footer {
     font-weight: 100;
 }
 
+
+
 /* ------------------------------------------------------------ */
 /* css for single project page */
 
@@ -423,6 +426,7 @@ button{
 
 #fluffy img{
     width:250px;
+    height:200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -488,7 +492,7 @@ button{
         margin-left:20px;
         margin-right:35px;
         margin-top:60px;
-        width:280px;
+        width:260px;
     }
 
     #fluffy{
