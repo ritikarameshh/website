@@ -1,24 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8">
-        <meta name="author" content="Ritika Ramesh">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="style.css" rel="stylesheet" type="text/css">
-        <title>Ritika's Portfolio</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <script src="app.js"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;500&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap" rel="stylesheet">
-	</head>
+        <!-- Main meta tags -->
+            <meta charset="utf-8">
+            <meta name="author" content="Ritika Ramesh">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Ritika Ramesh</title>
+    
+        <!-- Favicon -->
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_io/apple-touch-icon.png" type="image/x-icon">
+            <link rel="shortcut icon" href="/images/favicon_io/favicon.ico" type="image/x-icon">
+            <link rel="icon" href="/images/favicon_io/favicon.ico" type="image/x-icon">
+    
+        <!-- Google Fonts -->
+            <link rel="preconnect" href="https://fonts.googleapis.com"> 
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+            <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com"> 
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+            <link href="https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
+        <!-- Link to CSS -->
+            <link href="style.css" rel="stylesheet" type="text/css">
+    
+        <!-- Link to JS -->
+            <script src="app.js" async></script>
+        </head>
 
     <body>
         <header>
-            <nav id="mobile-nav">
-                <ul>
+            <nav class="navbar">
+                <a href="index.html" class="nav-branding">Ritika Ramesh</a>
+
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pdf/resume-design.pdf" class="nav-link" target="pdf/resume-design.pdf">Resume</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+            </nav>
+            <hr>
+            <hr>
+        </header>
+
+        <main>
+            <section id="intro">
+                <h2>Hi there!</h2>
+                <h3>I am a Product Designer passionate about building meaningful software experiences.</h3>
+            </section>
+
+            <section id="recent-work">
+                <h3>Take a look at some of my recent work:</h3>
+            
+                <div class="categories">
+                    <section id="card1">
+                        <a href="https://ritika-drum-kit.netlify.app"target="https://ritika-drum-kit.netlify.app"><img src="images/drumkit-image.png"alt=""></a>
+                        <p>My DrumKit</p>
+                    </section>
+
+                    <section id="card2">
+                        <a href="https://clairesinagra2.netlify.app"target="https://clairesinagra2.netlify.app"><img src="images/author-webpage.png"alt=""></a>
+                        <p>Author's Webpage</p>
+                    </section>
+
+                    <section id="card3">
+                        <a href="https://responsive-recipe-cake-4-you.netlify.app"target="https://responsive-recipe-cake-4-you.netlify.app"><img src="images/cake4you.png"alt=""></a>
+                        <p>Cupcake Recipe Webpage</p>
+                    </section>
+
+                    <section id="card4">
+                        <a href="vision.html"><img src="images/vision.png"alt=""></a>
+                        <p>Vision</p>            
+                    </section>
+                
+            </section>
+
+            
+        </main>
+
+        <footer>
+            <small>Made with &#10084;&#65039; by Ritika Ramesh</small>
+        </footer>
+
+       
+
+       
+                <!-- <ul>
                     <li class="nav-img">
                         <a href="index.html">
                             <h1>Ritika</h1>
@@ -43,22 +121,21 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="pdf/resume-design.pdf" target="pdf/resume-design.pdf">Resume</a></li>  
                     </div>
-                </ul>
-            </nav>
-        </header>
+                </ul> -->
+          
 
-        <div class="hamburger-nav">
+        <!-- <div class="hamburger-nav">
             <div>
                 <a href="projects.html">Projects</a>
                 <a href="about.html">About</a>
                 <a href="pdf/resume-design.pdf" target="pdf/resume-design.pdf">Resume</a>
             </div>
-        </div>
+        </div> -->
 
-        <main>
+        <!-- <main>
             <section>
                 <h2>Hi, I'm Ritika Ramesh!</h2>
-                <h3 class="description">I am an upcoming UI/UX designer passionate about building meaningful software experiences.</h3>
+                <h3 class="description">I am a Product designer passionate about building meaningful software experiences.</h3>
             </section>
 
             <section class="my-work">
@@ -69,10 +146,10 @@
                     <a id="card2" href="photogallery.html">Photogallery</a>
                     <a id="card3" href="vision.html">Vision</a>
             </section>
-        </main>
+        </main> -->
 
-        <footer>
+        <!-- <footer>
             <small>Made with &#10084;&#65039; by Ritika Ramesh</small>
-        </footer>
+        </footer> -->
     </body>
 </html>

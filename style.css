@@ -1,515 +1,556 @@
-@charset "utf-8";
+/* 
+font-family: 'Expletus Sans', cursive;;
+font-family: 'Comfortaa', cursive; */
 
-/* import fonts */
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;700&display=swap');
+ @charset "utf-8";
 
-/* CSS Document by Ritika Ramesh*/
-
-/*-------------------------------CSS RESET-------------------------------*/
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-/* css for exceptions */
-/* fixes tap to click on safari */
-* {
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  }
 /*---------------------------------------------------------------*/
 
+/* ---------- Global Styles (Mobile) - 320px+ ---------- */
 
-h1{
-    font-family: 'Euphoria Script', cursive;
-    font-size:45px;
+/*---------- Header & Footer ----------*/
 
-    background: linear-gradient(to right, rgb(17, 5, 143) 20%, rgb(82, 2, 17) 40%, rgb(121, 21, 126) 60%, rgb(0, 68, 120) 80%);
-    background-size: 150% auto;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+*{
+    /* cursor: url('cursor.png'), auto;	 */
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color:rgba(244, 244, 244, 1);
+    font-family: 'Comfortaa', cursive;
+
+}
+
+header{
+    margin-bottom:70px;
+    padding-bottom:10px;
+    background-color: #000000;
+
+}
+
+hr{
+    margin-top:5px;
+
+}
+
+
+li{
+    list-style: none;
+    padding-top:10px;
+    
 }
 
 a{
+    color:rgb(0, 0, 0);
     text-decoration: none;
+    text-transform: uppercase;
+    
 }
 
-h2 {
-    font-size: 28px;
-}
-h3 {
-    font-size: 24px;
-    font-weight: 100;
-}
-h4 {
-    font-size: 20px;
-}
-p {
-    font-size: 16px;
-}
-
-body {
-    margin: 25px;
-    font-family: 'Mukta', sans-serif;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: row;
+.navbar{
+    min-height: 70px;
+    display:flex;
     justify-content: space-between;
     align-items: center;
-}
-.nav-img img {
-    width: 75px;
+    padding: 30px 20px 20px 20px;
+
 }
 
-/* mobile nav css */
-nav svg {
-    height: 35px;
-    stroke-width: 1;
-    cursor: pointer;
+.nav-menu{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+
 }
-.hamburger-nav {
-    margin-top: 15px;
-    display: none;
+
+.nav-branding{
+    font-family: 'Expletus Sans', cursive;
+    font-size:26px;
+    color:transparent;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, #ffffff, #a61866,white, #e56313, #ffffff);
+    -webkit-background-clip: text;
+    animation:animate 10s linear infinite;
+    -webkit-background-sizes: 500%;
+    background-size: 500%;
+    
+}   
+@keyframes animate {
+    0% { background-position: 0 100%; }
+    50% { background-position: 100% 0; }
+    100% { background-position: 0 100%; }
+
+} 
+
+.nav-link{
+    transition: 0.7s ease;
+    color:white;
+    
+}
+
+.nav-link:hover{
+    color:#a61866;
     background-color: white;
-    padding: 10px;
-    width: 150px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    position: fixed;
-    right: 0px;
-    margin-right: 25px;
-    z-index: 5;
-}
-.hamburger-nav div {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-
-}
-.hamburger-nav a {
-    font-weight: 100;
-    text-decoration: none;
-    color: black;
-    text-align: right;
-    padding: 10px;
-    border-radius: 10px;
-    -webkit-margin-after:10px;
-}
-.hamburger-nav a:hover {
-    background-color: rgb(6, 6, 89);
-    color: white;
-    opacity: 0.5;
-}
-
-/* regular nav css */
-#tablet-nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-#tablet-nav .nav-end {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-}
-
-#tablet-nav .nav-end a {
-    font-weight: 100;
-    text-decoration: none;
-    color: black;
-    padding: 5px 10px;
-    
-}
-#tablet-nav .nav-end a:hover {
-    background-color: rgb(6, 6, 89);
-    color: white;
-    opacity: 0.5;    
-    border-radius: 10px;
-}
-
-main {
-    margin: 50px auto;
-    text-align: right;
-}
-.description {
-    margin-top: 15px;
-    font-weight: 100;
-    line-height: 32px;
-}
-
-.my-work {
-    margin: 50px auto;
-    text-align: center;
-}
-
-.my-work h3{
-    margin-top:60px;
-}
-.my-work a {
-    text-decoration: none;
-    font-size: 25px;
-}
-.categories {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.see-all {
-    color: gray;
-    text-align: right;
-    font-size: 10px;
-    margin-right: 5px;
-}
-
-
-#card1 {
-    padding: 50px;
-    text-decoration: none;
-    color: white;
-    border-radius: 10px;
-    background: linear-gradient(120deg, rgba(250, 225, 162, 0.78), rgb(255, 148, 173), rgba(141, 104, 222, 0.8));
-    background-size: 200% 170%;
-    -webkit-animation: Animation 4s ease infinite;
-    -moz-animation: Animation 4s ease infinite;
-    animation: Animation 4s ease infinite;
-    -webkit-margin-after: 10px;
-}
-#card2 {
-    padding:50px;
-    text-decoration: none;
-    color: white;
-    border-radius: 10px;
-    background: linear-gradient(120deg, rgba(141, 104, 222, 0.8), rgb(11, 17, 82), rgba(14, 58, 5));
-    background-size: 200% 170%;
-    -webkit-animation: Animation 4s ease infinite;
-    -moz-animation: Animation 4s ease infinite;
-    animation: Animation 4s ease infinite;
-    -webkit-margin-after: 10px;
-}
-#card3 {
-    padding: 50px;
-    text-decoration: none;
-    color: white;
-    border-radius: 10px;
-    background: linear-gradient(120deg, rgba(0, 46, 5, 0.78), rgb(89, 1, 22), rgba(21, 8, 49, 0.8));
-    background-size: 200% 170%;
-    -webkit-animation: Animation 4s ease infinite;
-    -moz-animation: Animation 4s ease infinite;
-    animation: Animation 4s ease infinite;
-    -webkit-margin-after: 10px;
-}
-#card4 {
-    padding: 50px;
-    text-decoration: none;
-    color: white;
-    border-radius: 10px;
-    background: linear-gradient(120deg, rgba(21, 8, 49, 0.8), rgb(157, 22, 22), rgba(196, 107, 12, 0.8));
-    background-size: 200% 170%;
-    -webkit-animation: Animation 4s ease infinite;
-    -moz-animation: Animation 4s ease infinite;
-    animation: Animation 4s ease infinite;
-    -webkit-margin-after: 10px;
-}
-
-#card5 {
-    padding: 50px;
-    text-decoration: none;
-    color: white;
-    border-radius: 10px;
-    background: linear-gradient(120deg, rgba(196, 107, 12, 0.8), rgb(22, 99, 157), rgba(12, 196, 64, 0.8));
-    background-size: 200% 170%;
-    -webkit-animation: Animation 4s ease infinite;
-    -moz-animation: Animation 4s ease infinite;
-    animation: Animation 4s ease infinite;
-    -webkit-margin-after: 10px;
-}
-
-@-webkit-keyframes Animation {
-    0%{background-position:0% 11%}
-    50%{background-position:100% 90%}
-    100%{background-position:0% 11%}
-}
-@-moz-keyframes Animation {
-    0%{background-position:0% 11%}
-    50%{background-position:100% 90%}
-    100%{background-position:0% 11%}
-}
-@keyframes Animation {
-    0%{background-position:0% 11%}
-    50%{background-position:100% 90%}
-    100%{background-position:0% 11%}
-}
-.categories a:hover {
-    opacity: 0.75;
-}
-footer {
-    text-align: center;
-    font-weight: 100;
-}
-
-
-
-/* ------------------------------------------------------------ */
-/* css for single project page */
-
-.project .logo-img{
-    width:125px;
-    margin-top:20px;
-    border:none;
-}
-
-.project section {
-    margin: 25px 0;
-    text-align: center;
-}
-.project h3 {
-    color: gray;
-    margin-bottom:20px;
-}
-.project p, .research li, .function li{
-    font-family: 'Mukta', sans-serif;
-    margin-top: 10px;
-    color: black;
-    text-align: left;
-    font-weight: 100;
-    line-height: 25px;
-}
-
-#design img{
-    border:none;
-    width:100%;
-    padding-top:20px;
-}
-
-hr {
-    border: 1px solid rgba(0, 0, 0, 0.125);
-}
-
-.project h3{
-    color: gray;
-    font-weight: 100;
-    margin-top:30px;
-    margin-bottom:20px;
-}
-
-.project img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 86%;
-    border: 0.1px solid gray;
-}
-
-
-.links button{
-    margin:10px;
-}
-
-.button{
-    margin-top:20px;
-}
-
-button{
-    font-family: 'Mukta', sans-serif;
-    font-weight: 100;
-    font-size:16px;
-    letter-spacing: 2.3px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    color: white;
     border-radius: 20px;
-    background: linear-gradient(90deg, rgba(189, 96, 147, 0.78), rgb(143, 46, 69), rgba(92, 22, 84, 0.927));
-    background-size: 200% 170%;
-    -webkit-animation: Animation 4s ease infinite;
-    -moz-animation: Animation 4s ease infinite;
-    animation: Animation 12s ease infinite;
-    -webkit-margin-after: 10px;
+    padding:15px;
+
 }
 
-.button2{
-    background: linear-gradient(90deg, rgba(165, 187, 84, 0.78), rgb(29, 110, 134), rgba(13, 31, 70, 0.927));
-    background-size: 200% 170%;
-    -webkit-animation: Animation 4s ease infinite;
-    -moz-animation: Animation 4s ease infinite;
-    animation: Animation 9s ease infinite;
-    -webkit-margin-after: 10px;
+.hamburger{
+    display:none;
+    cursor:pointer;
+
 }
 
-.tools p{
+.bar{
+    display:block;
+    width:30px;
+    height:3px;
+    margin:5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color:white;
+
+}
+
+footer{
+    border-top: 2px solid black;
+    font-size: 15px;
     text-align: center;
+    padding:40px;
+    margin-top:5px;
+
 }
 
-/* css for about me page */
+/* ------Main Introduction Page------ */
 
-.about-me p, .about-me2 p{
-    font-size:18px;
-    line-height: 25px;
-    font-weight:100;
-    text-align: left;
+
+
+main{
+    border-bottom: 2px solid black;
+    padding-bottom: 70px;
     
 }
 
-.about-me h2{
-    margin-bottom:20px;
+.categories{
+    display:flex;
+    text-align: center;
+    flex-direction: column;
 }
 
-.about-me img{
-    width:200px;
+/* colorize-zoom container */
+.categories #card1 img, #card2 img, #card3 img, #card4 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom:20px;
-
+    transition: transform .4s, filter 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform .4s, filter 0.5s ease-in-out;
+    filter: grayscale(100%);
+    width:90%;
+    margin-top:30px;
+    border-radius: 2px;
+}
+  
+ /* transformation */
+.categories #card1:hover img {
+    filter: grayscale(0);
+    transform: scale(1.05);
 }
 
-#description1{
-    margin-top:20px;
-    margin-bottom:20px;
-
+.categories #card2:hover img {
+    filter: grayscale(0);
+    transform: scale(1.05);
 }
 
-#fluffy aside{
-    font-size:18px;
-    line-height: 25px;
-    font-weight:300;
-    
-    
+.categories #card3:hover img {
+    filter: grayscale(0);
+    transform: scale(1.05);
 }
 
-
-
-
-/* from 320px to 768 px use hamburger menu */
-@media only screen and (min-width: 320px) and (max-width: 768px) 
-{
-    #tablet-nav {
-        display: none;
-    }
+.categories #card4:hover img {
+    filter: grayscale(0);
+    transform: scale(1.05);
 }
-@media only screen and (min-width: 768px) 
-{
-    body {
-        max-width: 720px;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
-    h1{
-        font-size: 58px;
-    }
-    h2 {
-        font-size: 32px;
-    }
-    h3 {
-        font-size: 28px;
-    }
-    h3 {
-        font-size: 24px;
-    }
-    p, li {
-        font-size: 20px;
-    }
-    a {
-        font-size: 18px;
-    }
-    #mobile-nav {
-        display: none;
-    }
-    .hamburger-nav {
-        display: none;
-    }
-    #tablet-nav {
-        display: block;
-    }
-    .my-work {
-        margin: 95px auto;
-    }
-
-    /* css for tablet about me page */
-    main{
-        margin-top:90px;
-    }
-    #description1, .about-me2 p{
-        text-align: right;
-    }
-    .about-me img{
-        float:left;
-        margin-left:20px;
-        margin-right:35px;
-        margin-top:60px;
-        width:260px;
-    }
-
-    #fluffy{
-        display: flex;
-        flex-direction: row;
-        padding-top:100px;
-        padding-right:20px;
-        
-    }
-    #fluffy aside{
-        margin-left:100px;
-        margin-right:20px;
-    }
-
-    #fluffy img{
-        margin-right:100px;
-        width:320px;
-        height:200px;
-    }
-
-    footer{
-       
-        padding-top:60px;
-    }
+.categories p{
+    padding-top:12px;
    
 }
 
 
+h2{
+    text-align: right;
+    font-weight: 400;
+    margin: 30px 45px 10px 20px;
+    font-size: 28px;
+}
+
+#intro{
+    margin-top:80px;
+    margin-bottom:80px;
+}
+
+#intro h3{
+    text-align: right;
+    margin: 0px 45px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    
+}
+
+#recent-work h3{
+    text-align: center;
+    margin-top:30px;
+    margin-left:50px;
+    margin-right:30px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+/* ------About Page------ */
+
+#main-about p, aside{
+    font-size: 16px;
+    line-height:25px;
+    margin: 10px 0 10px 0;
+    padding: 5px 25px 5px 25px;
+    text-align: center;
+}
+
+#main-about img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px rgba(23, 14, 14, 0.338);
+}
+
+#introduction{
+    padding-bottom:40px;
+
+}
+#main-about hr {
+    width: 85%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px dashed #000000;
+}
+
+#intro-only h2{
+    font-size: 26px;
+    margin:0;
+    padding:20px;
+    text-align: center;
+}
+
+
+#fluffy{
+    margin-top: 30px;
+
+}
+
+b{
+    text-decoration-line:underline;
+}
+
+#arrow img{
+    margin-top:10px;
+    margin-bottom:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:none;
+    width:5%;
+    
+}
+
+
+
+
+
+/* --------- Hamburger menu style (from 0px to 615px) --------- */
+
+@media(max-width:768px){
+    .hamburger{
+        display: block;
+
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity:0;
+
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+
+    }
+
+    .nav-menu{
+        position:fixed;
+        left:-100%;
+        top:100px;
+        gap:0;
+        flex-direction: column;
+        background: #000000;
+        transition:0.3s;
+        -webkit-margin-after: 10px;
+        width:100%;
+        padding:15px;
+        text-align: center;
+        
+    }
+
+    .nav-item{
+        margin:16px 0;
+
+    }
+
+    .nav-menu.active{
+        left:0;
+
+    }
+
+    
+
+}
+@media(min-width:768px){
+    .nav-menu{
+        top:110px;
+    
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .categories{
+        display:grid;
+        text-align: center;
+        grid-template-columns:1fr 1fr;
+        padding:20px;
+    }
+
+    .card{
+        margin:5px;
+    }
+}
+
+/* devices changes */
+
+/* ---------- 425px ---------- */
+@media screen and (min-width: 425px){
+    .nav-branding{
+        font-size:30px;
+        
+        
+    }
+
+    .nav-menu{
+        top:113px;
+        
+    }
+}
+    @media(min-width:768px){
+    .nav-menu{
+        top:110px;
+        
+    }
+}
+
+
+/* ---------- 425px ---------- */
+@media screen and (min-width: 425px){
+    .nav-branding{
+        font-size:30px;
+        
+    }
+}
+
+
+/* ---------- Tablet - 768px + ---------- */
+@media screen and (min-width: 768px){
+    main{
+        padding-left:40px;
+        padding-right:40px;
+    }
+
+    h2{
+        margin-top:100px;
+        font-size: 36px;
+    }
+
+    #intro{
+        margin-top:130px;
+        margin-bottom:130px;
+    }
+
+    #intro h3{
+        font-size: 22px;
+        
+        margin-left:40px;
+        line-height: 27px;
+    }
+
+    #recent-work h3{
+        font-size: 22px;
+    }
+
+    .nav-branding{
+        padding-left:25px;
+        
+    }
+
+    .navbar{
+        padding-right:50px;
+    }
+
+    .nav-item{
+        margin-left:10px;
+    }
+
+    .categories p{
+        padding-top:12px;
+        padding-bottom:30px;
+    }
+
+    footer{
+        font-size: 15px;
+    }
+
+     /* ------About Page------ */
+
+     #main-about p, aside{
+        font-size: 15px;
+       
+    }
+
+    #main-about #introduction{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        align-self: center;
+    }
+
+    #introduction img{
+        align-self: center;
+        width:80%;
+        
+    }
+
+    #intro-image{
+        padding-right: 40px;
+        place-self: center stretch;
+    }
+
+    #intro-only h2{
+        font-size: 27px;
+        margin:0;
+        padding:20px;
+        text-align: center;
+    }
+
+    #fluffy{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #fluffy img{
+        align-self: center;
+        width:350px;
+
+    }
+
+    #fluffy aside{
+        align-self: center;
+        margin:0;
+        margin-bottom: 5px;
+        
+    }
+
+    #arrow img{
+        display: none;
+        
+    }
+    
+
+}
+
+
+/* ---------- Desktop - 1000px + ---------- */
+@media screen and (min-width: 1000px){
+    main{
+        padding-left:80px;
+        padding-right:80px;
+    }
+
+    .nav-branding{
+        font-size: 37px;
+        
+    }
+
+    h2{
+        margin-top:200px;
+        font-size: 40px;
+    }
+
+    #intro h3{
+        font-size: 22px;
+        margin-bottom:150px;
+        margin-left:300px;
+        line-height: 30px;
+    }
+
+    #recent-work h3{
+        font-size: 22px;
+    }
+/* ------About Page------ */
+
+    #main-about p, aside{
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+
+    #introduction img{
+        width:75%;
+        
+        
+        align-items: center;
+        place-self: center stretch;
+        place-self: center stretch;
+
+        /* min-width: 200px;
+        max-width: 400px; */
+        
+    }
+
+    #intro-only{
+       
+        place-self: center stretch;
+    }
+
+    #intro-image{
+        padding-right:40px;
+        align-items: center;
+        place-self: center stretch;
+        place-self: center stretch;
+    }
+
+    #fluffy{
+        margin-top:-40px;
+        padding:0;
+    }
+}

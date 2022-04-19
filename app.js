@@ -1,4 +1,4 @@
-let hamburgerOn = false;
+// let hamburgerOn = false;
 
 // function toggleHamburger() {
 //     console.log('toggled')
@@ -15,13 +15,25 @@ let hamburgerOn = false;
 // }
 
 
-function toggleHamburger() {
-    const hamburgerMenu = document.querySelector('.hamburger-nav')
-    if (hamburgerOn === true) {
-        hamburgerMenu.style = "display: none;"
-    }
-    else if (hamburgerOn === false) {
-        hamburgerMenu.style = "display: block;"
-    }
-    hamburgerOn = !hamburgerOn
-}
+// function toggleHamburger() {
+//     const hamburgerMenu = document.querySelector('.hamburger-nav')
+//     if (hamburgerOn === true) {
+//         hamburgerMenu.style = "display: none;"
+//     }
+//     else if (hamburgerOn === false) {
+//         hamburgerMenu.style = "display: block;"
+//     }
+//     hamburgerOn = !hamburgerOn
+// }
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
+
+document.querySelectorAll(".navlink").forEach(n => n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}))
