@@ -180,27 +180,37 @@ main{
     width:90%;
     margin-top:30px;
     border-radius: 2px;
+    -webkit-transform: translateZ(0);
+    
 }
   
  /* transformation */
 .categories #card1:hover img {
     filter: grayscale(0);
     transform: scale(1.05);
+    -webkit-transform: translateZ(0);
+    
 }
 
 .categories #card2:hover img {
     filter: grayscale(0);
     transform: scale(1.05);
+    -webkit-transform: translateZ(0);
+    
 }
 
 .categories #card3:hover img {
     filter: grayscale(0);
     transform: scale(1.05);
+    -webkit-transform: translateZ(0);
+    
 }
 
 .categories #card4:hover img {
     filter: grayscale(0);
     transform: scale(1.05);
+    -webkit-transform: translateZ(0);
+
 }
 
 .categories p{
