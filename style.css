@@ -105,6 +105,7 @@ a{
 
 
 .nav-branding{
+    display: inline;
     font-family: 'Expletus Sans', cursive;
     font-size:26px;
     color:transparent;
@@ -114,6 +115,7 @@ a{
     animation:animate 10s linear infinite;
     -webkit-background-sizes: 500%;
     background-size: 500%;
+    
     
 }   
 @keyframes animate {
