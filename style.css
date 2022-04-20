@@ -24,6 +24,10 @@ body{
 
 }
 
+#wrapper{
+    padding-bottom:30px;
+}
+
 header{
     margin-bottom:70px;
     padding-bottom:10px;
@@ -159,14 +163,14 @@ footer{
 
 main{
     border-bottom: 2px solid black;
-    padding-bottom: 70px;
-    
+
 }
 
 .categories{
     display:flex;
     text-align: center;
     flex-direction: column;
+
 }
 
 /* colorize-zoom container */
@@ -325,6 +329,108 @@ b{
 }
 
 
+/* ------Vision Page------ */
+
+.vision h2{
+    text-align: center;
+    padding:0;
+    margin: 0;
+
+}
+
+.vision h3{
+    text-align: center;
+    padding:30px 0 0 0;
+    margin: 0;
+
+}
+
+.vision .about{
+    padding-bottom:20px;
+
+}
+
+.vision h4{
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    
+}
+
+.research section{
+    padding:10px 0 0 0;
+    margin: 0;
+
+}
+
+.vision #research-goal, #function-goal{
+    padding-top:15px;
+
+}
+
+.vision p, .vision .research ul li{
+    padding-left:25px;
+    padding-right:25px;
+    text-align: center;
+
+
+}
+
+.vision .research{
+    padding-bottom: 20px;
+
+}
+
+.vision .function, #design{
+    padding-bottom: 20px;
+}
+
+.vision #design img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:90%;
+    box-shadow: 1px 1px 5px rgba(23, 14, 14, 0.338);
+
+}
+
+.vision .tools p{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:30px;
+    padding: 15px 60px 15px 60px;
+    border: 1.5px solid rgba(0, 0, 0, 0.598);
+    box-shadow: 3px 3px 5px rgba(23, 14, 14, 0.338);
+    border-radius: 20px;
+    color:white;
+    background-image:-webkit-linear-gradient(40deg,#a61866, rgb(0, 0, 0), #e56313);
+}
+
+.button{
+    color:yellow;
+}
+
+footer{
+    border-top: 2px solid black;
+    font-size: 15px;
+    text-align: center;
+    padding:40px;
+    margin-top:5px;
+
+}
+
+.links{
+   
+}
 
 
 
