@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta name="author" content="Ritika Ramesh">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>Ritika's Portfolio</title>
+        <script src="app.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <nav id="mobile-nav">
+                <ul>
+                    <li class="nav-img">
+                        <a href="index.html">
+                            <h1>Ritika</h1>
+                        </a>
+                    </li>
+                    <svg onclick="toggleHamburger()" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </ul>
+            </nav>
+            <nav id="tablet-nav">
+                <ul>
+                    <div>
+                        <li class="nav-img">
+                            <a href="index.html">
+                                <h1>Ritika</h1>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="nav-end">
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="pdf/resume-design.pdf" target="pdf/resume-design.pdf">Resume</a></li>
+                        
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="hamburger-nav">
+            <div>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About</a>
+                <a href="pdf/resume-design.pdf" target="pdf/resume-design.pdf">Resume</a>
+            </div>
+        </div>
+
+        <main class="project">
+                <h2>Cake4You</h2>
+
+                <section>
+                    <h3>About</h3>
+                    <p>Cake4You is a responsive strawberry cupcake recipe page. I created this to get a hands-on experience using media queries. I, first, began with a Moodboard. Looked up many recipe pages to inspire my design. Then, I created a few sketeches to get a better understanding for what I needed for my recipe page. Next, my goal was to create a mockup of my design for three seperate devices- mobile (320px), tablet (768px), and desktop (1024px). I also created a recipe print mockup to make it easy for users to print out the recipe in a user-friendly way. After the mockups were created, I used HTML5 and CSS3 to turn my mockups into reality!</p>
+                </section>
+
+                <hr>
+
+                <section>
+                    <h3>Final Product</h3>
+
+                    <h4>Desktop</h4>
+                    <img src="images/cake4you-desktop.png" alt="screenshot of cake4you webpage in a desktop layout">
+
+                    <h4>Tablet</h4>
+                    <img src="images/cake4you-tablet.png" alt="screenshot of cake4you webpage in a tablet layout">
+
+                    <h4>Mobile</h4>
+                    <img src="images/cake4you-mobile1.png" alt="screenshot of cake4you webpage in a mobile layout">
+                    
+                </section>
+
+                <hr>
+
+                <section class="tools">
+                    <h3>Tools Used</h3>
+                    <p>Design and prototyping done in Figma</p>
+                    
+                    
+                </section>
+
+                <hr>
+
+                <section class="links">
+                    <h3>Links</h3>
+                    <div class="button">
+                        <button onclick="window.location.href='https://responsive-recipe-cake-4-you.netlify.app/';">Website</button>
+                        <button class="button2" onclick="window.location.href='https://www.behance.net/gallery/125173925/Responsive-Recipe-Cupcake';">Behance</button>
+                    </div>
+                
+                </section>
+
+                
+
+        </main>
+
+    </body>
+</html>

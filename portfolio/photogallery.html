@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta name="author" content="Ritika Ramesh">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>Ritika's Portfolio</title>
+        <script src="app.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <nav id="mobile-nav">
+                <ul>
+                    <li class="nav-img">
+                        <a href="index.html">
+                            <h1>Ritika</h1>
+                        </a>
+                    </li>
+                    <svg onclick="toggleHamburger()" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </ul>
+            </nav>
+            <nav id="tablet-nav">
+                <ul>
+                    <div>
+                        <li class="nav-img">
+                            <a href="index.html">
+                                <h1>Ritika</h1>
+                            </a>
+                        </li>
+                    </div>
+                    <div class="nav-end">
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="pdf/resume-design.pdf" target="pdf/resume-design.pdf">Resume</a></li>
+                        
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="hamburger-nav">
+            <div>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About</a>
+                <a href="pdf/resume-design.pdf" target="pdf/resume-design.pdf">Resume</a>
+            </div>
+        </div>
+
+        <main class="project">
+                <h2>Photogallery</h2>
+
+                <section>
+                    <h3>About</h3>
+                    <p>I created a static webpage to have some of my photography in one place. I created a moodboard, sketches, and mockup of what design should be like. The moodboard was for inspiration from other photogallery website which helped inspire my sketches and mockup design.</p>
+                </section>
+
+                <hr>
+
+                <section>
+                    <h3>Final Product</h3>
+
+                    <img src="images/photogallery-screenshot.png" alt="screenshot of photogallery static webpage">
+                    
+                </section>
+
+                <hr>
+
+                <section class="tools">
+                    <h3>Tools Used</h3>
+                    <p>Design and prototyping done in Adobe XD</p>
+                    
+                    
+                </section>
+
+                <hr>
+
+                <section class="links">
+                    <h3>Links</h3>
+                    <div class="button">
+                        <button onclick="window.location.href='https://photo-gallery-assignment-2.netlify.app/';">Website</button>
+                        <button class="button2" onclick="window.location.href='https://www.behance.net/gallery/124049863/Photo-Gallery';">Behance</button>
+                    </div>
+       
+                
+                </section>
+
+                
+
+        </main>
+
+    </body>
+</html>
