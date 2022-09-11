@@ -644,16 +644,23 @@ footer{
     }
 }
 /* ------------ ForHealth Page ------------ */
-
 .forhealth{
     padding-left: 20px;
     padding-right: 20px;
     
 }
 
+#forhealth-content{
+    padding-top:50px;
+}
+
+.forhealth h2{
+   display:none;
+}
+
 .forhealth h3{
-    margin-top:25px;
-    margin-bottom:25px;
+    margin-top:5px;
+    margin-bottom:12px;
     line-height: 20px;
 }
 
@@ -671,21 +678,14 @@ footer{
 .forhealth li{
     font-size: 15px ;
     list-style-type: square;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 .forhealth p{
-    
     font-size: 16px ;
     list-style-type: square;
-    line-height: 20px;
+    line-height: 25px;
 }
-
-#user-overview{
-    margin-top:40px;
-}
-
-
 
 .forhealth-title img{
     width:70%;
@@ -736,8 +736,9 @@ footer{
     padding-bottom:20px;
 }
 
-#user-overview, #user-persona, #research-overview, #participant-overview, #task-difficulty, #final-prototype,#key-takeaways, .forhealth .tools, .forhealth .links{
-    padding-bottom:20px;
+#forhealth-content .about, #user-overview, #user-persona, #research-overview, #participant-overview, #task-difficulty, #final-prototype,#key-takeaways, .forhealth .tools, .forhealth .links{
+    padding-bottom:10px;
+    padding-top:20px;
 }
 
 /* ------------------ Device Changes Starts Here ------------------ */
@@ -838,34 +839,9 @@ footer{
         font-size: 15px;
     }
 
-/* ------------------ Vision Page ------------------ */
+    /* ------------------ About Page (Tablet) ------------------ */
 
-    .vision .links{
-       margin-bottom:-120px;
-
-    }
-
-    .vision h2{
-        margin-left:0px;
-    }
-
-    .research h4{
-        padding:0;
-        margin:0;
-        text-align: right;
-       
-    }
-
-    .research-application{
-        display:grid;
-        grid-template-columns: 20% 80%;
-        align-items: center;
-
-    }
-
-/* ------------------ About Page ------------------ */
-
-     #main-about p, #fluffy aside{
+    #main-about p, #fluffy aside{
         font-size: 15px;
        
     }
@@ -922,16 +898,53 @@ footer{
         
     }
 
-    /* ------------------ ForHealth Page ------------------ */
+/* ------------------ Vision Page (Tablet) ------------------ */
+
+    .vision .links{
+       margin-bottom:-120px;
+
+    }
+
+    .vision h2{
+        margin-left:0px;
+    }
+
+    .research h4{
+        padding:0;
+        margin:0;
+        text-align: right;
+       
+    }
+
+    .research-application{
+        display:grid;
+        grid-template-columns: 20% 80%;
+        align-items: center;
+
+    }
+
+
+
+    /* ------------------ ForHealth Page (Tablet)------------------ */
     .forhealth{
-        padding-left:200px;
-        padding-right:200px;
+        padding-left:100px;
+        padding-right:100px;
     
     }
 
     .forhealth h2{
         margin:0;
     
+    }
+
+    #user-persona h4{
+        margin-bottom:10px;
+    }
+
+    #user-persona img{
+        width:90%;
+        margin-bottom:40px;
+        border: solid 3px black;
     }
 
     .forhealth-title img{
@@ -952,7 +965,16 @@ footer{
     }
 
     #user-overview, #user-persona, #research-overview, #participant-overview, #task-difficulty, #final-prototype,#key-takeaways, .forhealth .tools, .forhealth .links{
-        padding-bottom:20px;
+       
+        padding-top:20px;
+    }
+
+    .forhealth #final-prototype h4{
+        text-align: center;
+    }
+
+    .buttons{
+        display: flex;
     }
 }
 
@@ -1046,13 +1068,18 @@ footer{
 
     /* ------------------ ForHealth Page ------------------ */
     .forhealth{
-     padding-left:300px;
+     padding-left:150px;
+     padding-right:150px;
     
     }
     
     .forhealth-title img{
          width:40%;
      }
+
+    #user-overview{
+        margin-top:100px;
+    }
 
 
     #participant-overview .chart{
