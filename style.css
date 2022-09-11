@@ -568,9 +568,9 @@ button{
 
 .button2 {
     background-color: transparent;
-    border: 1px solid #266DB6;
+    border: 1px solid #000000;
     box-sizing: border-box;
-    color: #00132C;
+    color: #ffffff;
     font-family: "Avenir Next LT W01 Bold",sans-serif;
     font-size: 16px;
     font-weight: 700;
@@ -586,16 +586,19 @@ button{
   .button2:hover,
   .button2:active {
     outline: 0;
+    
   }
   
   .button2:hover {
     background-color: transparent;
     cursor: pointer;
+    color: #ffffff;
+    transition: 1.5s;
   }
   
   .button2:before {
     text-align: center;
-    background-color: rgba(90, 165, 196, 0.4792);
+    background-color: rgba(85, 85, 85, 0.479);
     content: "";
     height: calc(100% + 3px);
     position: absolute;
@@ -607,7 +610,7 @@ button{
   }
   
   .button2:hover:before {
-    background-color: #6DCFF6;
+    background-color: #000000;
   }
 
   
