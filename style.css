@@ -165,13 +165,14 @@ footer{
 
 }
 
-/* ------Main Introduction Page------ */
 
+/* ----Home Page (Mobile) - 320px+ ---- */
 main{
     margin-top:200px;
     border-bottom: 2px solid black;
     animation:fadeIn;
     animation-duration: 1s;
+
 }
 
 h2{
@@ -183,11 +184,6 @@ h2{
     margin-bottom:15px;
     
 }
-
-
-/* #intro h2:hover{
-    cursor: pointer;
-} */
 
 #intro{
     margin:80px 20px 80px 20px;
@@ -203,7 +199,7 @@ h2{
     z-index: 0;
     padding-left:10px;
     
-  }
+}
   
   @keyframes wave-animation {
       0% { transform: rotate( 0.0deg) }
@@ -214,10 +210,8 @@ h2{
      50% { transform: rotate(10.0deg) }
      60% { transform: rotate( 0.0deg) } /*reset*/
     100% { transform: rotate( 0.0deg) }
+
   }
-  
-  
-  
 
 #intro h3{
     text-align: left;
@@ -241,6 +235,10 @@ h2{
     animation-duration: 1s;
     
 } */
+
+#recent-work{
+    padding-bottom:25px;
+}
 
 #recent-work h3{
     text-align: left;
@@ -557,9 +555,7 @@ b{
     padding-bottom:15px;
 }
 
-#recent-work .links{
-    padding-bottom:1000px;
-}
+
 
 button{
     display: block;
@@ -629,10 +625,7 @@ footer{
 
 }
 
-
-
-
-/* --------- Hamburger menu style (from 0px to 615px) --------- */
+/* --------- Hamburger Menu Style (From 0px to 615px) --------- */
 
 @media(max-width:768px){
     .hamburger{
@@ -708,9 +701,9 @@ footer{
     }
 }
 
-/* device changes */
+/* ------------------ Device Changes Starts Here ------------------ */
 
-/* ---------- 425px ---------- */
+/* ------------------ Mid Mobile/Tablet - 425px ------------------ */
 @media screen and (min-width: 425px){
     .nav-branding{
         font-size:30px;
@@ -728,7 +721,9 @@ footer{
     }
 }
 
-/* ---------- tablet - 768px + ---------- */
+
+/* ------------------ Tablet - 768px ------------------ */
+
 @media screen and (min-width: 768px){
     
     .nav-menu{
@@ -740,20 +735,29 @@ footer{
         padding-left:40px;
         padding-right:40px;
         padding-bottom:200px;
+
     }
 
     h2{
         margin-top:230px;
         font-size: 32px;
+
     }
 
     #intro h3{
         font-size: 20px;
         line-height: 27px;
+
+    }
+
+    #recent-work{
+        margin-bottom:-150px;
+
     }
 
     #recent-work h3{
         font-size: 18px;
+
     }
 
     .nav-branding{
@@ -763,6 +767,7 @@ footer{
 
     .navbar{
         padding-right:50px;
+
     }
 
     .nav-menu{
@@ -772,18 +777,20 @@ footer{
 
     .nav-item{
         margin-left:10px;
+
     }
 
     .categories p{
         padding-top:12px;
         padding-bottom:2px;
+
     }
 
     footer{
         font-size: 15px;
     }
 
-    /* ------Vision Page------ */
+/* ------------------ Vision Page ------------------ */
 
     .vision .links{
        margin-bottom:-120px;
@@ -801,10 +808,10 @@ footer{
         display:grid;
         grid-template-columns: 20% 80%;
         align-items: center;
+
     }
 
-
-     /* ------About Page------ */
+/* ------------------ About Page ------------------ */
 
      #main-about p, #fluffy aside{
         font-size: 15px;
@@ -815,6 +822,7 @@ footer{
         display:grid;
         grid-template-columns:1fr 1fr;
         align-self: center;
+
     }
 
     #introduction img{
@@ -826,6 +834,7 @@ footer{
     #intro-image{
         padding-right: 40px;
         place-self: center stretch;
+
     }
 
     #intro-only h2{
@@ -833,12 +842,14 @@ footer{
         margin:0;
         padding:20px;
         text-align: center;
+
     }
 
     #fluffy{
         display:flex;
         flex-direction: column;
         align-items: flex-start;
+
     }
 
     #fluffy img{
@@ -858,10 +869,7 @@ footer{
         display: none;
         
     }
-    
-
 }
-
 
 /* ---------- Desktop - 1000px + ---------- */
 @media screen and (min-width: 1000px){
@@ -920,39 +928,26 @@ footer{
         height: auto;  
 
     }
-
-    
-
-    /* .research p, .function p {
-       
-        
-    } */
-
    
 /* ------About Page------ */
 
     #main-about p, #fluffy aside{
         font-size: 18px;
         line-height: 35px;
-    }
 
+    }
 
     #introduction img{
         width:75%;
-        
-        
         align-items: center;
         place-self: center stretch;
         place-self: center stretch;
-
-        /* min-width: 200px;
-        max-width: 400px; */
         
     }
 
     #intro-only{
-       
         place-self: center stretch;
+
     }
 
     #intro-image{
@@ -960,36 +955,38 @@ footer{
         align-items: center;
         place-self: center stretch;
         place-self: center stretch;
+
     }
 
     #fluffy{
         margin-top:-40px;
         padding:0;
+
     }
 }
 
 
  /* ------ 1200 px ------ */
  @media screen and (min-width: 1200px){
- #intro{
-    padding-right:200px;
-    
- }
+    #intro{
+        padding-right:200px;
+        
+    }
 
- /* ------Vision Page------ */
- .vision{
-    padding:0 200px 0 200px;
-    
- }
+    /* ------Vision Page------ */
+    .vision{
+        padding:0 200px 0 200px;
+        
+    }
 
- .vision h2{
-    padding-top:15px;
- }
+    .vision h2{
+        padding-top:15px;
+    }
 
- .vision .about{
-    padding:0;
-    margin-bottom:30px;
- }
+    .vision .about{
+        padding:0;
+        margin-bottom:30px;
+    }
 
  
  
