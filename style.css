@@ -644,6 +644,102 @@ footer{
         padding-top:20px;
     }
 }
+/* ------------ ForHealth Page ------------ */
+
+.forhealth{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.forhealth h3{
+    margin-top:25px;
+    margin-bottom:25px;
+    line-height: 20px;
+}
+
+.forhealth h4{
+    margin-top:15px;
+    line-height: 20px;
+    padding-bottom:5px;
+}
+
+.forhealth ul{
+    margin-bottom:15px;
+    padding-left: 20px;
+}
+
+.forhealth li{
+    font-size: 15px ;
+    list-style-type: square;
+    line-height: 20px;
+}
+
+.forhealth p{
+    
+    font-size: 16px ;
+    list-style-type: square;
+    line-height: 20px;
+}
+
+#user-overview{
+    margin-top:40px;
+}
+
+
+
+.forhealth-title img{
+    width:70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#user-persona img{
+    width:98%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#participant-overview img{
+    width:85%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    
+}
+
+#task-difficulty img{
+    width:90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#final-prototype img{
+    width:98%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:10px;
+    padding-bottom:20px;
+}
+
+.forhealth .tools{
+    padding-bottom:20px;
+}
+
+#user-overview, #user-persona, #research-overview, #participant-overview, #task-difficulty, #final-prototype,#key-takeaways, .forhealth .tools, .forhealth .links{
+    padding-bottom:20px;
+}
 
 /* ------------------ Device Changes Starts Here ------------------ */
 
@@ -662,6 +758,15 @@ footer{
 
     #intro{
         margin-right:150px;
+    }
+
+    /* ------------ ForHealth Page ------------ */
+
+    #participant-overview img{
+        width:65%;
+        
+
+
     }
 }
 
@@ -813,6 +918,31 @@ footer{
         display: none;
         
     }
+
+    /* ------------------ ForHealth Page ------------------ */
+    .forhealth{
+        padding-left:200px;
+        padding-right:200px;
+    
+    }
+    .forhealth-title img{
+        width:40%;
+    }
+
+
+    #participant-overview .chart{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top:20px;
+        
+    }
+    #participant-overview img{
+        width:75%;
+     
+        
+    }
+
+   
 }
 
 /* ---------- Desktop - 1000px + ---------- */
@@ -908,6 +1038,30 @@ footer{
         padding:0;
 
     }
+
+    /* ------------------ ForHealth Page ------------------ */
+    .forhealth{
+     padding-left:300px;
+    
+    }
+    
+    .forhealth-title img{
+         width:40%;
+     }
+
+
+    #participant-overview .chart{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top:20px;
+            
+    }
+    
+    #participant-overview img{
+        width:75%;
+        
+    }
+
 }
 
 
