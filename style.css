@@ -482,16 +482,18 @@ b{
 }
 
 .vision h3{
-    text-align: center;
-    padding:30px 0 0 0;
+    text-align: left;
+    padding:30px 0 0 30px;
     margin: 0;
     animation:zoomIn;
     animation-duration: 1s;
+    
 
 }
 
 .vision p{
     line-height: 30px;
+    
 }
 
 .vision .about h3{
@@ -506,9 +508,10 @@ b{
 
 .vision h4{
     text-decoration: underline;
-    text-align: center;
+    text-align: left;
     padding-top: 20px;
     padding-bottom: 5px;
+    padding-left:30px;
     
 }
 
@@ -524,11 +527,9 @@ b{
 }
 
 .vision p, .vision .research ul li{
-    padding-left:25px;
-    padding-right:25px;
-    text-align: center;
-
-
+    padding-left:30px;
+    padding-right:30px;
+    text-align: left;
 }
 
 .vision .research{
@@ -556,9 +557,13 @@ b{
     padding-bottom:15px;
 }
 
+#recent-work .links{
+    padding-bottom:1000px;
+}
+
 button{
     display: block;
-    margin-left: auto;
+    margin-left: 40px;
     margin-right: auto;
     margin-top:30px;
     padding: 15px 60px 15px 60px;
@@ -608,6 +613,7 @@ button{
   .button2:hover:before {
     background-color: #6DCFF6;
   }
+
   
   @media (min-width: 768px) {
     .button2 {
@@ -677,12 +683,6 @@ footer{
         left:0;
 
     }
-/* 
-    .wave{
-        display: none;
-    } */
-
-    
 
 }
 
@@ -739,6 +739,7 @@ footer{
     main{
         padding-left:40px;
         padding-right:40px;
+        padding-bottom:200px;
     }
 
     h2{
@@ -781,6 +782,27 @@ footer{
     footer{
         font-size: 15px;
     }
+
+    /* ------Vision Page------ */
+
+    .vision .links{
+       margin-bottom:-120px;
+
+    }
+
+    .research h4{
+        padding:0;
+        margin:0;
+        text-align: right;
+       
+    }
+
+    .research-application{
+        display:grid;
+        grid-template-columns: 20% 80%;
+        align-items: center;
+    }
+
 
      /* ------About Page------ */
 
@@ -899,11 +921,12 @@ footer{
 
     }
 
-    .research p, .function p {
-        margin-left:300px;
-        margin-right:300px;
+    
+
+    /* .research p, .function p {
+       
         
-    }
+    } */
 
    
 /* ------About Page------ */
@@ -946,10 +969,28 @@ footer{
 }
 
 
- /* home page */
+ /* ------ 1200 px ------ */
  @media screen and (min-width: 1200px){
  #intro{
     padding-right:200px;
     
  }
+
+ /* ------Vision Page------ */
+ .vision{
+    padding:0 200px 0 200px;
+    
+ }
+
+ .vision h2{
+    padding-top:15px;
+ }
+
+ .vision .about{
+    padding:0;
+    margin-bottom:30px;
+ }
+
+ 
+ 
 }
