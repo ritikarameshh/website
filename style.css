@@ -414,8 +414,7 @@ b{
 }
 
 .vision h2{
-    text-align: center;
-    padding:0;
+    padding-left:20px;
     margin: 0;
 
 }
@@ -846,6 +845,10 @@ footer{
 
     }
 
+    .vision h2{
+        margin-left:0px;
+    }
+
     .research h4{
         padding:0;
         margin:0;
@@ -925,6 +928,12 @@ footer{
         padding-right:200px;
     
     }
+
+    .forhealth h2{
+        margin:0;
+    
+    }
+
     .forhealth-title img{
         width:40%;
     }
@@ -942,7 +951,9 @@ footer{
         
     }
 
-   
+    #user-overview, #user-persona, #research-overview, #participant-overview, #task-difficulty, #final-prototype,#key-takeaways, .forhealth .tools, .forhealth .links{
+        padding-bottom:20px;
+    }
 }
 
 /* ---------- Desktop - 1000px + ---------- */
@@ -978,12 +989,6 @@ footer{
     .vision{
         padding:50px;
 
-    }
-
-    .vision .about{
-        padding-left:30px;
-        padding-right:30px;
-        
     }
 
     .vision p{
