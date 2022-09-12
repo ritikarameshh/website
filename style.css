@@ -92,6 +92,11 @@ a{
     margin-right:20px;
 }
 
+.nav-item{
+        margin:0px;
+        padding:10px 20px;
+    }
+
 
 .nav-item:hover{ 
     background-color: #a61866;
@@ -791,9 +796,11 @@ footer{
     }
 
     .nav-item{
-        margin:-10px;
-
+        margin:0px;
+        padding:10px 20px;
     }
+
+   
 
     .categories p{
         padding-top:12px;
@@ -992,11 +999,11 @@ footer{
         font-size:18px;
     }
 
-    .nav-item{
-        padding:30px 20px;
+    /* .nav-item{
+        padding:10px 20px;
     
     
-    }
+    } */
 /* ------------------ Vision Page ------------------ */
 
     .vision{
