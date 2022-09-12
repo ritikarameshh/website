@@ -854,13 +854,17 @@ footer{
         margin:auto;
     }
 
+    #fluffy img{
+        width:60%;
+    }
+
 
     #arrow img{
         display: none;
         
     }
 
-    #
+    
 
 /* ------------------ Vision Page (Tablet) ------------------ */
 
@@ -1035,6 +1039,10 @@ footer{
 
     #intro-only{
         margin-top:-300px;
+    }
+
+    #fluffy img{
+        width:50%;
     }
 
 
