@@ -344,9 +344,20 @@ h2{
     background-color: #000000;
   }
 
-/* ------------------ About Page ------------------ */
+/* ------------------ About Page (mobile)------------------ */
+#main-about{
+    padding-bottom:40px;
 
-#main-about p, #fluffy aside{
+}
+#main-about p{
+    font-size: 16px;
+    line-height:25px;
+    margin: 10px 0 10px 0;
+    padding: 5px 25px 5px 25px;
+    text-align: left;
+}
+
+#fluffy aside{
     font-size: 16px;
     line-height:25px;
     margin: 10px 0 10px 0;
@@ -358,28 +369,30 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 85%;
     border-radius: 2px;
-    box-shadow: 5px 5px 5px rgba(23, 14, 14, 0.338);
+    padding-top:10px;
+    /* box-shadow: 5px 5px 5px rgba(23, 14, 14, 0.338); */
 }
 
 #introduction{
     padding-bottom:40px;
 
 }
+
 #main-about hr {
     width: 85%;
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
-    border: 1px dashed #000000;
+
 }
 
 #intro-only h2{
     font-size: 26px;
-    margin:0;
-    padding:20px;
-    text-align: center;
+    padding-left:25px;
+    padding-right:10px;
+    line-height: 35px;
     
 }
 
@@ -736,6 +749,13 @@ footer{
         
     }
 
+    /* ------------ About Page ------------ */
+
+    #main-about{
+        padding-left:30px;
+        padding-right:30px;
+    }
+
 }
 
 
@@ -745,12 +765,10 @@ footer{
     
     .nav-menu{
         top:110px;
-        margin-left:20px;
+        margin-left:0px;
         
     }
    
-   
-    
     main{
         padding-left:40px;
         padding-right:40px;
@@ -800,8 +818,6 @@ footer{
         padding:10px 20px;
     }
 
-   
-
     .categories p{
         padding-top:12px;
         padding-bottom:2px;
@@ -814,62 +830,36 @@ footer{
 
     /* ------------------ About Page (Tablet) ------------------ */
 
-    #main-about p, #fluffy aside{
-        font-size: 15px;
-       
+    #main-about{
+        /* padding:0; */
     }
-
-    #main-about #introduction{
+    
+    #introduction{
         display:grid;
-        grid-template-columns:1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         align-self: center;
-
     }
 
-    #introduction img{
+    #intro-only{
+        padding:0;
+        margin-top:-200px;
         align-self: center;
-        width:80%;
-        
     }
 
     #intro-image{
-        padding-right: 40px;
-        place-self: center stretch;
-
-    }
-
-    #intro-only h2{
-        font-size: 27px;
-        margin:0;
-        padding:20px;
-        text-align: center;
-
-    }
-
-    #fluffy{
-        display:flex;
-        flex-direction: column;
-        align-items: flex-start;
-
-    }
-
-    #fluffy img{
         align-self: center;
-        width:350px;
-
+        width:90%;
+        padding:auto;
+        margin:auto;
     }
 
-    #fluffy aside{
-        align-self: center;
-        margin:0;
-        margin-bottom: 5px;
-        
-    }
 
     #arrow img{
         display: none;
         
     }
+
+    #
 
 /* ------------------ Vision Page (Tablet) ------------------ */
 
@@ -1029,40 +1019,23 @@ footer{
 
     }
    
-/* ------About Page------ */
+/* ------------------ About Page ------------------ */
 
     #main-about p, #fluffy aside{
-        font-size: 18px;
-        line-height: 35px;
+        font-size: 17px;
+        line-height: 30px;
 
     }
 
-    #introduction img{
-        width:75%;
-        align-items: center;
-        place-self: center stretch;
-        place-self: center stretch;
-        
+    #main-about{
+        padding-left:100px;
+        padding-right:100px;
     }
 
     #intro-only{
-        place-self: center stretch;
-
+        margin-top:-300px;
     }
 
-    #intro-image{
-        padding-right:40px;
-        align-items: center;
-        place-self: center stretch;
-        place-self: center stretch;
-
-    }
-
-    #fluffy{
-        margin-top:-40px;
-        padding:0;
-
-    }
 
     /* ------------------ ForHealth Page ------------------ */
     .forhealth{
@@ -1093,7 +1066,7 @@ footer{
 
 }
 
- /* ------ 1200 px ------ */
+/* ------ 1200 px ------ */
  @media screen and (min-width: 1200px){
     #intro{
         padding-right:200px;
@@ -1124,3 +1097,5 @@ footer{
  
  
 }
+
+/* ---------- Desktop - 1300px + ---------- */
