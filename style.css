@@ -704,10 +704,27 @@ footer{
 
     #participant-overview img{
         width:65%;
-        
+    }
 
+    
+}
+
+/* ------------------ 500px ------------------ */
+
+@media screen and (min-width: 500px){
+    .forhealth .buttons .button{
+        margin-left: auto;
+        margin-right: auto;
 
     }
+
+    .buttons{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
 }
 
 
@@ -916,13 +933,16 @@ footer{
     .forhealth .buttons .button{
         margin-left: auto;
         margin-right: auto;
-        
+        padding:5px;
+
     }
 
     .buttons{
         display: flex;
         margin-left: auto;
         margin-right: auto;
+        padding-left:30px;
+        padding-right:30px;
     }
 }
 
@@ -1042,7 +1062,6 @@ footer{
     }
 
 }
-
 
  /* ------ 1200 px ------ */
  @media screen and (min-width: 1200px){
