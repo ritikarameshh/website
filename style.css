@@ -497,68 +497,7 @@ b{
 
 
 /* --------- */
-.button2{
-    display: block;
-    margin-left: 40px;
-    margin-right: auto;
-    margin-top:30px;
-    padding: 15px 60px 15px 60px;
-   
-}
 
-.button2 {
-    background-color: transparent;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    color: #ffffff;
-    font-family: "Avenir Next LT W01 Bold",sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    padding: 16px 23px;
-    position: relative;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-  
-  .button2:hover,
-  .button2:active {
-    outline: 0;
-    
-  }
-  
-  .button2:hover {
-    background-color: transparent;
-    cursor: pointer;
-    color: #ffffff;
-    transition: 1.5s;
-  }
-  
-  .button2:before {
-    text-align: center;
-    background-color: rgba(85, 85, 85, 0.479);
-    content: "";
-    height: calc(100% + 3px);
-    position: absolute;
-    right: -7px;
-    top: -9px;
-    transition: background-color 300ms ease-in;
-    width: 100%;
-    z-index: -1;
-  }
-  
-  .button2:hover:before {
-    background-color: #000000;
-  }
-
-  
-  @media (min-width: 768px) {
-    .button2 {
-      padding: 16px 32px;
-    }
-  }
 footer{
     border-top: 2px solid black;
     font-size: 15px;
@@ -653,6 +592,7 @@ footer{
 #forhealth-content{
     padding-top:50px;
 }
+
 
 .forhealth h2{
    display:none;
@@ -973,8 +913,16 @@ footer{
         text-align: center;
     }
 
+    .forhealth .buttons .button{
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
     .buttons{
         display: flex;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -1070,17 +1018,16 @@ footer{
     .forhealth{
      padding-left:150px;
      padding-right:150px;
-    
     }
+
+    /* .forhealth p{
+        margin-right:200px;
+
+    } */
     
     .forhealth-title img{
          width:40%;
      }
-
-    #user-overview{
-        margin-top:100px;
-    }
-
 
     #participant-overview .chart{
         display: grid;
@@ -1118,6 +1065,12 @@ footer{
         padding:0;
         margin-bottom:30px;
     }
+
+/* ------------------ ForHealth Page ------------------ */
+    .forhealth{
+        padding-left:250px;
+        padding-right:250px;
+       }
 
  
  
