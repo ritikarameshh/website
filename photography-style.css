@@ -1,0 +1,136 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+
+
+
+html, body {
+    width: 100%;
+    height:100%;
+}
+  
+body {
+    color:white;
+    background: linear-gradient(-90deg, #00004e, #05062c, #003c77, #09075a);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1{
+    font-weight:500;
+    text-align: center;
+    margin-top:10px;
+   
+}
+
+nav{
+    padding:20px;
+    margin-top:20px;
+    text-align: center;
+}
+
+nav:hover{
+    animation:pulse;
+    animation-duration: 1s;
+}
+
+
+.nav-branding{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    background-color: white;
+    padding:10px 15px 10px 15px;
+    margin-top:20px;
+    border-radius: 20px;
+   
+    
+}
+
+.nav-branding:hover{ 
+    background-color: #589982;
+    transition: .5s;
+
+}
+
+h2{
+    font-size: 14px;
+    padding-top:5px;
+    padding-bottom:20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#photo-grid{
+    display:grid;
+    grid-template-rows: 1fr;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#photo-grid img{
+    width:90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:15px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+footer{
+    border-top: 1px solid rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    padding:40px;
+    margin-top:5px;
+
+}
+/* ---------------  425px --------------- */
+@media screen and (min-width: 425px){
+    #photo-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ---------------  768px --------------- */
+
+@media screen and (min-width: 768px){
+    #photo-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* ---------------  1000px --------------- */
+
+@media screen and (min-width: 1000px){
+    #photo-grid img{
+        border: 2px solid rgb(255, 255, 255);
+    }
+}
+

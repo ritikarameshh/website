@@ -1,5 +1,5 @@
 /* 
-font-family: 'Expletus Sans', cursive;;
+font-family: 'Expletus Sans', cursive;
 font-family: 'Comfortaa', cursive; 
 font-family: 'Montserrat', sans-serif; */
 
@@ -52,9 +52,6 @@ hr{
 
 }
 
-
-
-
 li{
     list-style: none;
     padding:30px;
@@ -102,6 +99,7 @@ a{
     background-color: #a61866;
     border-radius: 20px;
     animation:pulse;
+    
     animation-duration: 1s;
     
     
