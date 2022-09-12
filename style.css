@@ -53,14 +53,16 @@ hr{
 }
 
 
+
+
 li{
     list-style: none;
-    padding-top:10px;
+    padding:30px;
     
 }
 
 a{
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     color:white;
     display:flex;
@@ -86,24 +88,21 @@ a{
 
 .nav-item{
     text-decoration: none;
-    padding:18px;
-    
+    padding:auto;
     margin-right:20px;
-
 }
-.nav-item:hover{
+
+
+.nav-item:hover{ 
+    background-color: #a61866;
+    border-radius: 20px;
+    animation:pulse;
+    animation-duration: 1s;
     
-    border-radius: 10px;
-    color:#a61866;
-
-
-}
-
-
-.nav-link:hover{
-    color:#a61866;
     
+
 }
+
 
 
 .nav-branding{
@@ -541,7 +540,7 @@ footer{
         transition:0.3s;
         -webkit-margin-after: 10px;
         width:100%;
-        padding:15px;
+        padding:5px;
         display:flex;
         flex-direction: column;
         align-items: center;
@@ -549,8 +548,15 @@ footer{
         
     }
 
+    /* #a61866,white, #e56313 */
+
     .nav-item{
-        margin:16px 0;
+        margin:10px 0;
+
+    }
+
+    .nav-item:hover{
+        background-color: #a61866;
 
     }
 
@@ -734,8 +740,11 @@ footer{
     
     .nav-menu{
         top:110px;
+        margin-left:20px;
         
     }
+   
+   
     
     main{
         padding-left:40px;
@@ -782,7 +791,7 @@ footer{
     }
 
     .nav-item{
-        margin-left:10px;
+        margin:-10px;
 
     }
 
@@ -954,6 +963,11 @@ footer{
         
     }
 
+    .nav-menu li{
+        margin-left:20px;
+        
+    }
+
 
     h2{
         padding-top:100px;
@@ -974,6 +988,15 @@ footer{
 
     }
 
+    .nav-menu a{
+        font-size:18px;
+    }
+
+    .nav-item{
+        padding:30px 20px;
+    
+    
+    }
 /* ------------------ Vision Page ------------------ */
 
     .vision{
