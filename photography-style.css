@@ -53,13 +53,11 @@ nav{
     padding:20px;
     margin-top:20px;
     text-align: center;
-    
 }
 
 nav:hover{
     animation:pulse;
     animation-duration: 1s;
-    
 }
 
 
@@ -76,12 +74,12 @@ nav:hover{
 }
 
 .nav-branding:hover{ 
-    
     background-color: #000000;
     color:white;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    border:white solid 1px;
+    
+    
+
+    
 
 }
 
@@ -139,11 +137,8 @@ footer{
         border: 2px solid rgb(255, 255, 255);
     }
 
-    .nav-branding{
+    #nav-branding{
         font-size: 18px;
-        
-       
-        
     }
 }
 
