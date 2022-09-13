@@ -86,7 +86,7 @@ a{
 
 
 .nav-item:hover{ 
-    background-color: #a61866;
+    background-color: #9eba9f;
     border-radius: 20px;
     animation:pulse;
     
@@ -180,7 +180,7 @@ a{
     }
 
     .nav-item:hover{
-        background-color: #a61866;
+        background-color: #9eba9f;
 
     }
 
