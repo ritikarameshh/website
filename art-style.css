@@ -239,6 +239,7 @@ h3{
 #animation .grid, #illustration .grid {
     border: none;
     background-color: transparent;
+    box-shadow: none;
     
 }
 
@@ -307,6 +308,7 @@ footer{
         font-size:16px;
         margin:10px;
     }
+    
 
 
 /* ---------------  768px --------------- */
@@ -323,4 +325,6 @@ footer{
         grid-template-columns: 1fr 1fr 1fr;
         
     }
+
+    
 }
