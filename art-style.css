@@ -257,7 +257,6 @@ h3{
 #illustration p{
     font-size: 16px;
     text-align: center;
-
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -282,6 +281,10 @@ footer{
     margin-top:5px;
 
 }
+
+
+
+
 /* ---------------  450px --------------- */
 @media screen and (min-width: 450px){
     #illustration .grid{

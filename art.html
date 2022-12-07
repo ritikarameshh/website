@@ -26,39 +26,126 @@
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
             <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
             <link rel="preconnect" href="https://fonts.googleapis.com"> 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+            <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
 
         <!-- Link to CSS -->
-            <link href="art-style.css" rel="stylesheet" type="text/css">
+            <link href="style.css" rel="stylesheet" type="text/css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     
         <!-- Link to JS -->
             <script src="app.js" async></script>
         </head>
 
-    <body>
-        <header>
-            <nav class="navbar">
-                <a href="art.html" class="nav-branding">Ritika Ramesh</a>
+        <body>
+            <header>
+                <nav class="navbar">
+                    <a href="index.html" class="nav-branding">Ritika Ramesh</a>
+    
+                    <ul class="nav-menu">
+    
+                        <li class="nav-item">
+                            <a href="art.html" class="nav-link">Art</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a href="photography.html" class="nav-link">Photography</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="pdf/resume-design.pdf" class="nav-link" target="pdf/resume-design.pdf">Resume</a>
+                        </li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+    
+                </nav>
+    
+                <hr>
+    
+                <hr>
+    
+            </header>
 
-                <ul class="nav-menu">
+            <main>
+                <div id= "wrapper" class="art">
+                <h2>Welcome to my little art gallery!</h2>
 
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">&#8249; Website</a>
-                    </li>
-                </ul>
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
+                <section id="illustration">
+                    <h3>Illustration</h3>
+                    <p>Click on the thumbnail to see the illustrations!</p>
 
-            </nav>
+                    <section class="grid">
+                        <section id="blob">
+                            <a href="pdf/Blob!.pdf" target="_blank">
+                                <img src="images/blob-thumb.png" />
+                            </a>
+                            <h4>Meet Blob!</h4>
+                        </section>
 
-        </header>
+                        <section>
+                            <a href="pdf/friends-book-cover.pdf" target="_blank">
+                                <img src="images/friends-thumb.png" />
+                            </a>
+                            <h4>The One Where Friends Was a Book</h4>
+                        </section>
 
-        <main>
+                        <section>
+                            <a href="pdf/quotes.pdf" target="_blank">
+                                <img src="images/quotes-thumb.png" />
+                            </a>
+                            <h4>Fun lil quotes</h4>
+                        </section>
+                    </section>
+
+                </section>
+
+                <section id="animation">
+                    <h3>Animation</h3>
+
+                    <section class="grid">
+                        <section>
+                            <img src="videos/project3.gif" alt="">
+                            <h4>Paint with me! or US!!</h4>
+                        </section>
+
+                        <section>
+                            <img src="videos/balloon.gif" alt="">
+                            <h4>Pop! Pop! Pop!</h4>
+                        </section>
+
+                        <section>
+                            <img src="videos/bird.gif" alt="">
+                            <h4>Birdie</h4>
+                        </section>
+                    </section>
+                    
+                    
+
+
+                </section>
+
+            </main>
+    
+            
+    
+            <footer>
+                <small>Made with &#10084;&#65039; by Ritika Ramesh</small>
+            </footer>
+
+
+    
+        </body>
+
+    <!-- <body>
+
+        <main id="art">
             <h1>My Little Art Gallery!</h1>
 
             <section>
@@ -118,11 +205,6 @@
                     
 
 
-                    <!-- <video width="320" height="240" controls>
-                        <source src="videos/Project 3.mp4" type="video/mp4">
-                        <source src="videos/Project 3.mp4" type="video/ogg">
-                      Your browser does not support the video tag.
-                      </video> -->
                 </section>
 
 
@@ -142,5 +224,5 @@
         <footer>
             <small>Made with &#10084;&#65039; by Ritika Ramesh</small>
         </footer>
-    </body>
+    </body> -->
 </html>
