@@ -820,6 +820,35 @@ footer{
         width:65%;
     }
 
+    
+   
+    
+}
+
+/* ------------------ 500px ------------------ */
+
+@media screen and (min-width: 500px){
+    .forhealth .buttons .button{
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .buttons{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    /* ------------ About Page ------------ */
+
+    #main-about{
+        padding-left:30px;
+        padding-right:30px;
+    }
+
+
     /* ------------ Art Page (425px)------------ */
 
     .art #illustration h3, .art #animation h3{
@@ -857,32 +886,6 @@ footer{
         margin-bottom:10px;
     }
 
-   
-    
-}
-
-/* ------------------ 500px ------------------ */
-
-@media screen and (min-width: 500px){
-    .forhealth .buttons .button{
-        margin-left: auto;
-        margin-right: auto;
-
-    }
-
-    .buttons{
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-
-    /* ------------ About Page ------------ */
-
-    #main-about{
-        padding-left:30px;
-        padding-right:30px;
-    }
 
 }
 
