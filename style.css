@@ -849,7 +849,13 @@ footer{
     }
 
 
-    /* ------------ Art Page (425px)------------ */
+    /* ------------ Art Page (500px)------------ */
+
+    .art h2{
+        font-size:28px;
+        padding-top:50px;
+        margin-bottom:25px;
+    }
 
     .art #illustration h3, .art #animation h3{
         font-size:20px;
@@ -876,7 +882,14 @@ footer{
     }
 
 
-    /* ------ Photography Page (425px)------ */
+    /* ------ Photography Page (500px)------ */
+
+    .photography h2{
+        font-size:28px;
+        padding-top:50px;
+        margin-bottom:25px;
+    }
+
     .photography #photo-grid{
         grid-template-columns: 1fr 1fr;
     }
@@ -885,6 +898,8 @@ footer{
         width:95%;
         margin-bottom:10px;
     }
+
+
 
 
 }
