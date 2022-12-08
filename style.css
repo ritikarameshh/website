@@ -180,7 +180,7 @@ main{
     font-weight: 400;
     animation:zoomIn;
     animation-duration: 1s;
-    font-size: 40px;
+    font-size: 38px;
     margin-bottom:5px;
     
 }
@@ -860,7 +860,7 @@ footer{
 
     /* ------------Home Page -500px+ ------------ */
     #intro h2{
-        font-size: 45px;
+        font-size: 42px;
         
     }
 
