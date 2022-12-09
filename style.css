@@ -845,9 +845,7 @@ footer{
         
     }
 
-    #intro{
-        margin-right:100px;
-    }
+    
 
     /* ------------ ForHealth Page (425px) ------------ */
 
@@ -1235,6 +1233,7 @@ footer{
         font-size:20px;
         line-height: 30px;
         font-weight: 200;
+        font-size: 26px;
     }
 
     
