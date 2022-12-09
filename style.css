@@ -30,6 +30,7 @@ header{
 
 }
 
+
 body{
     background-color:white;
     font-family: 'Comfortaa', cursive;
@@ -46,6 +47,8 @@ p{
 
 #wrapper{
     padding-bottom:30px;
+    scroll-behavior:fadeIn;
+    animation-duration: 10s;
 }
 
 header{
