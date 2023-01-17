@@ -651,9 +651,9 @@ footer{
 
 }
 
-/* --------- Hamburger Menu Style (From 0px to 615px) --------- */
+/* --------- Hamburger Menu Style (From 0px to 800px) --------- */
 
-@media(max-width:768px){
+@media(max-width:800px){
     .hamburger{
         display: block;
         z-index: 1;
