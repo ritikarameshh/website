@@ -37,42 +37,36 @@ header{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    background-size: 40%;
+    background-size: 90%;
     margin: 0;
     padding: 0;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     position: relative;
-   
     display: flex;
     align-items: center;
   }
   
-  
-    
-
 .redesign section{
-
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 10px;
   text-align: center;
 }
 
 .redesign h1{
     color:#E0667D;
     font-family: 'Montserrat', sans-serif;
-    font-size: 70px;
+    font-size: 28px;
     font-weight: 500;
 }
 
 .redesign p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 14px;
+    font-weight: 400;
     text-decoration: none;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -1015,6 +1009,29 @@ footer{
 @media screen and (min-width: 768px){
 
     /* ------------Home Page - 768px+ ------------ */
+    .redesign {
+        
+        background-size: 60%;
+       
+      }
+
+      .redesign h1{
+          font-size: 60px;
+          font-weight: 500;
+      }
+      
+      .redesign p{
+          font-size: 20px;
+          font-weight: 400;
+         
+      }
+
+      .redesign .nav-link{
+
+          font-weight: 500;
+         
+          
+      }
     #intro h2{
         font-size: 48px;
         
@@ -1257,6 +1274,29 @@ footer{
 
 /* ---------- Desktop - 1000px + ---------- */
 @media screen and (min-width: 1000px){
+    .redesign {
+        
+        background-size: 40%;
+       
+      }
+
+      .redesign h1{
+          font-size: 80px;
+          font-weight: 500;
+      }
+      
+      .redesign p{
+          font-size: 24px;
+          font-weight: 400;
+         
+      }
+
+      .redesign .nav-link{
+
+          font-weight: 500;
+         
+          
+      }
 
     #intro{
         padding-bottom:40px;
