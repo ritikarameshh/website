@@ -19,7 +19,7 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 html{
-    scroll-behavior:smooth;
+    scroll-behavior:fadeIn;
 }
 
 header{
@@ -29,6 +29,62 @@ header{
     z-index: 1;
 
 }
+
+.redesign {
+    animation: fadeIn;
+    animation-duration: 1s;
+    background-image: url('new-images/rr-logo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 40%;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+   
+    display: flex;
+    align-items: center;
+  }
+  
+  
+    
+
+.redesign section{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  text-align: center;
+}
+
+.redesign h1{
+    color:#E0667D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.redesign p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.redesign .nav-link{
+    color: #E0667D;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+
+
 
 
 body{
