@@ -112,8 +112,8 @@ hr{
 .navbar li{
     list-style: none;
     margin:25px;
-    padding-bottom:20px;
-    padding-top:20px;
+    /* padding-bottom:20px;
+    padding-top:20px; */
     
 }
 
@@ -144,6 +144,8 @@ nav a:hover{
 .nav-menu{
     display:flex;
     flex-direction: row;
+    padding-top:15px;
+    padding-bottom:15px;
 
 }
 
@@ -1435,7 +1437,7 @@ textarea{
     .nav-menu{
         position:fixed;
         left:-100%;
-        top: 160px;
+        top: 170px;
         gap:0;
         flex-direction: column;
         background: #000000;
