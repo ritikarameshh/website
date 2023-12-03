@@ -2179,11 +2179,7 @@ textarea{
     }
 
     
-        /* grid-column-start: 1;
-        grid-column-end: 3;
-        justify-self: center; */
-        
-    }
+        /* grid-column-star
 
     /* ------------------ Vision Page (1024) ------------------ */
     #vision .trigger, #vision .action, #vision .investment, #vision .rewards{
@@ -2228,9 +2224,7 @@ textarea{
     
     }
 
-    
 
-}
 
 @media only screen and (min-width: 1440px) {
     /* ------------ Header ------------ */
