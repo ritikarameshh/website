@@ -1141,7 +1141,7 @@ main{
     padding-bottom:20px;
     font-size: 26px; */
     padding-top:10px;
-    padding-bottom:20px;
+    /* padding-bottom:px; */
     font-size: 26px;
     background: -webkit-linear-gradient(#E08A59, #DF5889);
     -webkit-background-clip: text;
@@ -1150,12 +1150,15 @@ main{
 }
 
 #about .art h3{
-    font-size: 20px;;
+    font-size: 20px;
     font-weight: 700;
+    padding-top:30px;
 }
 
 #about .art h4{
-    color: yellow;
+    font-size: 18px;
+    padding-top:10px;
+    padding-bottom:5px;
 
 }
 
@@ -1193,6 +1196,7 @@ main{
 #contact h2{
     font-size: 36px;
     text-align: left;
+    padding-bottom:10px;
 }
 
 #contact p, #about p{
@@ -1209,6 +1213,7 @@ main{
     text-align: center;
     padding-bottom: 10px;
     padding-top: 30px;
+    font-size: 22px;
 
 }
 
@@ -1216,7 +1221,7 @@ main{
     /* display: block;
     margin-left: auto;
     margin-right: auto; */
-    margin-top:0;
+    margin-top:10px;
     margin-bottom:20px;
 
     /* margin: 0; position: relative; */
@@ -1259,13 +1264,14 @@ textarea{
   input[type=submit] {
     background-color: #000000;
     color: rgb(255, 255, 255);
-    padding: 20px 30px;
+    padding: 10px 30px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     float: right;
     margin-bottom: 100px;
     font-size: 16px;
+    font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 
   }
