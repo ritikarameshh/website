@@ -1606,6 +1606,14 @@ textarea{
     
     }
 
+    .navbar{
+        
+        padding-left: 35px;
+        padding-right: 35px;
+       
+        
+    }
+
     /* ------------ Home (600px) ------------ */
 
     #intro{
