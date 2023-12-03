@@ -2159,7 +2159,7 @@ textarea{
 
     /* ------------------ Vision Page (1024) ------------------ */
     #vision .trigger, #vision .action, #vision .investment, #vision .rewards{
-        padding:40px;
+        /* padding:40px; */
         margin-top:25px;
         align-items: center;
         text-align: center;
