@@ -1665,6 +1665,11 @@ textarea{
     
     }
 
+    .section3{
+        padding-left:100px;
+        padding-right:100px;
+    }
+
     .objectives {
         padding-top:40px;
         grid-column-start: 1;
@@ -1780,6 +1785,11 @@ textarea{
 
     #vision .app{
         padding-bottom: 20px;
+    }
+
+    #vision .incentive1{
+        padding-top:0px;
+
     }
 
     #vision .trigger img, #vision .action img, #vision .investment img, #vision .rewards img{
