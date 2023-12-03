@@ -722,6 +722,9 @@ main{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    background: -webkit-linear-gradient(#4FACE2, #284150);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -1133,7 +1136,10 @@ main{
 #about hr{
     margin-top:30px;
     margin-bottom:30px;
-    border:2px solid black;
+    border:1.2px solid #E08A59;
+    width:100px;
+        
+    
 }
 
 #about .art h2{
@@ -1946,6 +1952,14 @@ textarea{
         padding:20px 60px;
     }
 
+    /* about page */
+    #about{
+        padding-left:80px;
+        padding-right:80px;
+
+    }
+
+
     
     
 
@@ -1977,6 +1991,14 @@ textarea{
         padding:0;
     
     }
+
+    /* about page */
+    #about hr{
+        width:200px;
+        
+    }
+
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -2062,7 +2084,7 @@ textarea{
 
     }
 
-    /* ------------------ Contact / About Page (600px) ------------------ */
+    /* ------------------ Contact / About Page (1024px) ------------------ */
     #contact {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -2084,6 +2106,7 @@ textarea{
     
     }
 
+    
 
 }
 
