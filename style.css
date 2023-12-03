@@ -1596,7 +1596,7 @@ textarea{
     
     }
 
-    /* ------------ Home ------------ */
+    /* ------------ Home (600px) ------------ */
 
     #intro{
         padding:300px 50px 100px 50px;
@@ -1620,7 +1620,7 @@ textarea{
 
     }
 
-    /* ------------------ ALL PROJECTS ------------------ */
+    /* ------------------ ALL PROJECTS (600px) ------------------ */
 
     .section1, .section2, .section3, .section4, .section5, .section6, .section7, .section8{
         padding:40px 40px;
@@ -2130,6 +2130,30 @@ textarea{
     .section1 p{
         font-size:18px;
         line-height: 150%;
+        
+    }
+
+    .divide-objective{
+        display: grid;
+        grid-template-columns: 1fr 1fr;;
+        padding-bottom:20px;
+    }
+    .about-image{
+        padding:0;
+    }
+
+    .about-image img{
+        align-self: center;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+        padding-top:0;
+    }
+
+    
+        /* grid-column-start: 1;
+        grid-column-end: 3;
+        justify-self: center; */
         
     }
 
