@@ -109,6 +109,8 @@ hr{
 
 }
 
+
+
 .navbar li{
     list-style: none;
     margin:25px;
@@ -136,7 +138,7 @@ nav a:hover{
     display:flex;
     flex-direction: row;
     align-items: center;
-    padding: 30px;
+    padding: 25px;
     justify-content: space-between; 
     
 }
@@ -1129,25 +1131,37 @@ main{
 }
 
 #about hr{
-    margin-top:50px;
-    margin-bottom:50px;
+    margin-top:30px;
+    margin-bottom:30px;
     border:2px solid black;
 }
 
 #about .art h2{
+    /* padding-top:10px;
+    padding-bottom:20px;
+    font-size: 26px; */
     padding-top:10px;
     padding-bottom:20px;
     font-size: 26px;
+    background: -webkit-linear-gradient(#E08A59, #DF5889);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
 #about .art h3{
-    /* padding-bottom:10px; */
+    font-size: 20px;;
+    font-weight: 700;
+}
+
+#about .art h4{
+    color: yellow;
 
 }
 
 #about .art p{
-    margin-bottom:20px;
+    margin-bottom:10px;
+    margin-top:5px;
     padding:0;
     text-align: center;
     font-size: 14px;
@@ -1169,7 +1183,7 @@ main{
 }
 
 #contact, #about{
-    padding: 300px 30px 0 30px;
+    padding: 250px 30px 0 30px;
     max-width:1000px;
     margin: 0 auto;
     text-align: center;
@@ -1184,8 +1198,8 @@ main{
 #contact p, #about p{
     font-size: 16px;
     text-align: left;
-    padding-bottom:20px;
-    padding-top:10px;
+    padding-bottom:2px;
+    /* padding-top:10px; */
     line-height: 1.7;
     font-weight: 400;
 }
@@ -1322,7 +1336,7 @@ textarea{
 }
 
 .shape-blob {
-	background:#fff4e4;
+	background:#f2d2a1;
 	height: 250px;
 	width: 300px;
 	/* /* border-radius: 40% 50% 30% 40%; */
@@ -1337,7 +1351,7 @@ textarea{
 }
 
 .shape-blob.one{
-	background:#fee8c1;
+	background:#fec1fe;
 	height: 100px;
 	width: 100px;
 	left: 10px;
@@ -1348,7 +1362,7 @@ textarea{
 }
 
 .shape-blob.six{
-	background:#ffdeea;
+	background:#ffecde;
 	height: 200px;
 	width: 200px;
 	left: 50px;
