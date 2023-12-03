@@ -692,7 +692,7 @@ main{
 
 .project li{
     padding-left:5px;
-    padding-bottom:10px;
+    /* padding-bottom:5px; */
 
 }
 
@@ -702,7 +702,7 @@ main{
 }
 
 .project .research2-divisions div{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 
 }
 
@@ -713,6 +713,7 @@ main{
 
 .project .research2-divisions img{
     width:100%;
+    padding-top:10px;
     
 }
 
@@ -785,11 +786,24 @@ main{
 
 #forhealth h4{
     color: #730000;
+    padding-top:10px;
+    padding-bottom:0px;
+
+}
+
+#forhealth .research3 h5{
+    padding-top:10px;
+
+}
+
+#forhealth .research3{
+    
 
 }
 
 #forhealth .research1 img{
     width:100%;
+    padding-top:15px;
 
 }
 
@@ -799,7 +813,7 @@ main{
 }
 
 #forhealth .participants img{
-    padding-top:10px;
+    padding-top:20px;
     padding-bottom:20px;
     display: block;
     margin-left: auto;
@@ -820,6 +834,10 @@ main{
     align-items: centerx;
     border:#000000 1px solid;
 
+}
+
+#forhealth .research2-divisions h5{
+    padding-top:10px;
 }
 
 /* ------------------ Zelle Page ------------------ */
@@ -1846,11 +1864,21 @@ textarea{
         margin-right: auto;
     }
 
+    #forhealth .task-difficulty {
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+
     #forhealth .task-difficulty img{
-        width:500px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        width:400px;
+        align-self: center;
+        
+    }
+
+    #forhealth h4 {
+        padding-top: 30px;
     }
 
     #forhealth .incentive1 h5, #forhealth .incentive3 h5, #forhealth .incentive1 p, #forhealth .incentive3 p{
@@ -2026,6 +2054,21 @@ textarea{
     #about hr{
         width:200px;
         
+    }
+    /* ------------------ ForHealth (786px) ------------------ */
+    .participants-task{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:10px;
+    }
+
+    #forhealth .participants-task img{
+        width:200px;
+    }
+
+    #forhealth .task-difficulty img {
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
 
     /* ------------------ Contact / About Page (786px) ------------------ */
