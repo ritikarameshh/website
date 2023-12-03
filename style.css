@@ -701,6 +701,16 @@ main{
 
 }
 
+.project .research2-divisions div{
+    padding-bottom: 20px;
+
+}
+
+.project .research2-divisions p{
+    padding-top: 5px;
+
+}
+
 .project .research2-divisions img{
     width:100%;
     
@@ -1735,7 +1745,7 @@ textarea{
     }
 
     .research2 h4, .section4 h4{
-        padding:30px;
+        padding:20px;
     
     }
     
@@ -1806,7 +1816,7 @@ textarea{
         margin-left: auto;
         margin-right: auto;
         width: 80%;
-        padding-top:30px;
+        /* padding-top:30px; */
     }
 
 
@@ -2160,7 +2170,7 @@ textarea{
     /* ------------------ Vision Page (1024) ------------------ */
     #vision .trigger, #vision .action, #vision .investment, #vision .rewards{
         /* padding:40px; */
-        margin-top:25px;
+        /* margin-top:25px; */
         align-items: center;
         text-align: center;
         
