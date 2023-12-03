@@ -219,6 +219,7 @@ footer{
     text-align: center;
     padding:50px;
     margin-top:100px;
+    z-index: 2;
 
 }
 
@@ -229,6 +230,7 @@ main{
     animation-duration: 1s;
     max-width: 1800px;
     margin: 0 auto;
+    z-index: 1;
     
 
 }
@@ -1340,7 +1342,7 @@ textarea{
 	min-height: 100vh;
 	overflow: hidden;
 	position:absolute;
-	width: 80%;
+	width: 70%;
 	filter: blur(40px);
     white-space:none;
     z-index: -1;
@@ -1997,6 +1999,74 @@ textarea{
         width:200px;
         
     }
+
+    /* ------------------ Contact / About Page (786px) ------------------ */
+
+    /* about page */
+
+    #about, #contact{
+        padding-top:345px;
+    }
+
+    .aboutpage1{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .aboutpage1 img{
+        width:300px;
+        margin-right:30px;
+        justify-self: center;
+    }
+
+    #about .illustration{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    #about .illustration img{
+        padding-right:3px;
+        padding-left:3px;
+        
+    }
+
+    #about hr{
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+
+    #about .art h2{
+        padding-right:100px;
+    }
+
+    #about .faceless{
+        display:grid;
+        grid-template-columns: 2fr 2fr 2fr ;
+
+    }
+
+    #about .faceless img{
+        padding-right:3px;
+        padding-left:3px;
+        
+    }
+
+    #about .landscape{
+        display:grid;
+        grid-template-columns: 1fr 1fr ;
+
+    }
+
+    #about .landscape img{
+        padding-right:3px;
+        padding-left:3px;
+        
+    }
+
+
+     
+    
 
 
 }
