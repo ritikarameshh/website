@@ -1153,17 +1153,34 @@ main{
     width: 100%;
     /* border: 1px solid red; */
     border-radius: 16px;
-    height: 2450px;
+    height: 100%;
+    scroll-behavior: none;
     /* pointer-events: none; */
     margin-bottom: 32px;
 
-    @media screen and (min-width: 768px) {
+    /* @media screen and (min-width: 425px) {
+        height: 100%;
+    }
+
+    @media screen and (min-width: 500px) {
         height: 2300px;
     }
 
-    @media screen and (min-width: 1024px) {
-        height: 1925px;
+    @media screen and (min-width: 550px) {
+        height: 2350px;
     }
+
+    @media screen and (min-width: 600px) {
+        height: 2490px;
+    }
+
+    @media screen and (min-width: 768px) {
+        height: 2200px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        height: 1980px;
+    } */
 }
 
 .figma-embed {
