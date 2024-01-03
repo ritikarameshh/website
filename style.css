@@ -29,27 +29,6 @@ header{
 }
 
 /* ------------------------------ revamping web page design ------------------------------ */
-.craft-embed {
-    width: 100%;
-    /* border: 1px solid red; */
-    border-radius: 16px;
-    height: 3900px;
-    pointer-events: none;
-    margin-bottom: 32px;
-
-    @media screen and (min-width: 768px) {
-        height: 2300px;
-    }
-
-    @media screen and (min-width: 1024px) {
-        height: 1925px;
-    }
-}
-
-.figma-embed {
-    width: 100%;
-    height: 1000px
-}
 
 .redesign {
     animation: fadeIn;
@@ -1162,6 +1141,34 @@ main{
 .button:active {
   background: var(--color);
   color: #fff;
+}
+
+/* -------------------------- Lively  -------------------------- */
+
+#lively h3{
+    background-color: #FCB809;
+}
+
+.craft-embed {
+    width: 100%;
+    /* border: 1px solid red; */
+    border-radius: 16px;
+    height: 3900px;
+    pointer-events: none;
+    margin-bottom: 32px;
+
+    @media screen and (min-width: 768px) {
+        height: 2300px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        height: 1925px;
+    }
+}
+
+.figma-embed {
+    width: 100%;
+    height: 1000px
 }
 
 
