@@ -214,7 +214,8 @@ nav a:hover{
 }
 
 footer{
-    border-top: 6px solid black;
+    border-top: 5px solid black;
+    font-weight: 500;
     font-size: 16px;
     text-align: center;
     padding:50px;
