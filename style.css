@@ -221,6 +221,7 @@ footer{
     padding:50px;
     margin-top:100px;
     z-index: 2;
+    color:#c1c1c1;
 
 }
 
@@ -547,6 +548,34 @@ main{
     margin-right: auto;
     width: 100%;
 
+}
+
+.categories .card1{
+    font-size: 22px;
+    color: #6500BB;
+    padding-top:5px;
+    padding-bottom:15px;
+}
+
+.categories .card2{
+    font-size: 22px;
+    color: #FCB809;
+    padding-top:5px;
+    padding-bottom:15px;
+}
+
+.categories .card3{
+    font-size: 22px;
+    color: #4FACE2;
+    padding-top:5px;
+    padding-bottom:15px;
+}
+
+.categories .card4{
+    font-size: 22px;
+    color: #D74452;
+    padding-top:5px;
+    
 }
 
 /* ---------------------------- home page hover ends ---------------------------- */
