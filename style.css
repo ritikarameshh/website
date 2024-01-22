@@ -1572,12 +1572,17 @@ main{
 
 }
 
+.contact-button{
+    display: flex;
+}
+
 #contact .button{
     /* display: block;
     margin-left: auto;
     margin-right: auto; */
     margin-top:10px;
-    margin-bottom:20px;
+    margin-bottom:10px;
+    margin-right:10px;
 
     /* margin: 0; position: relative; */
 }
