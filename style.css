@@ -18,73 +18,17 @@ html{
 }
 
 header{
-    position: fixed;
+    /* position: fixed; */
     width:100%;
     top:0;
     z-index: 2;
     /* margin-bottom:70px; */
     padding-bottom:10px;
-    background-color: #000000;
+    background-color: #ffffff00;
 
 }
 
-/* ------------------------------ revamping web page design ------------------------------ */
 
-.redesign {
-    animation: fadeIn;
-    animation-duration: 1s;
-    background-image: url('new-images/rr-logo.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: 90%;
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    align-items: center;
-
-} 
-  
-.redesign section{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-
-}
-
-.redesign h1{
-    color:#E0667D;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 36px;
-    font-weight: 500;
-
-}
-
- .redesign p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    text-decoration: none;
-    padding-bottom: 10px;
-    padding-top: 10px;
-
-}
-
-.redesign .nav-link{
-    color: #E0667D;
-    font-weight: 500;
-    text-decoration: none;
-    
-}
-
-
-/* ------------------------------ revamping web page design ends here ------------------------------ */
 
 body{
     background-color:white;
@@ -122,7 +66,7 @@ hr{
 nav a{
     font-size: 16px;
     text-decoration: none;
-    color:white;
+    color:black;
     font-weight: 500;
     
 }
@@ -170,7 +114,7 @@ nav a:hover{
 
 
 .nav-item:hover{ 
-    /* background-color: #a61866; */
+
     animation:rubberBand;
     animation-duration: 1s;
 
@@ -206,10 +150,11 @@ nav a:hover{
     display:block;
     width:30px;
     height:3px;
+    border-radius: 10px;
     margin:5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color:white;
+    background-color:rgb(0, 0, 0);
 
 }
 
@@ -250,7 +195,7 @@ main{
 #intro{
     display: flex;
     flex-direction: column;
-    padding:300px 20px 100px 20px;
+    padding:100px 20px 100px 20px;
     max-width: 900px;
 
 }
@@ -583,7 +528,7 @@ main{
 
 /* -------------------------- ALL PROJECTS -------------------------- */
 .project {
-    padding-top:200px;
+    /* padding-top:10px; */
     /* border-bottom: 2px solid black; */
  
 }
@@ -597,7 +542,7 @@ main{
 
 .project h2{
     text-align: center;
-    padding-top:7%;
+    /* padding-top:7%; */
     font-size: 48px;
     font-weight: 600;
 
@@ -1586,7 +1531,7 @@ main{
 }
 
 #contact, #about{
-    padding: 250px 30px 0 30px;
+    padding: 80px 30px 0 30px;
     max-width:1000px;
     margin: 0 auto;
     text-align: center;
@@ -1765,15 +1710,18 @@ textarea{
         top: 160px;
         gap:0;
         flex-direction: column;
-        background: #000000;
-        transition:0.3s;
+        background: #ffffff;
+        transition:0.5s;
         -webkit-margin-after: 10px;
         width:100%;
-        /* padding:5px; */
+        padding-bottom:20px;
+        padding-top:0px;
         display:flex;
         flex-direction: column;
         align-items: center;
-        z-index: 1;
+        z-index: 2;
+        border-radius: 20px;
+        border-bottom: #000000 3px solid;
         
     }
 
@@ -1833,7 +1781,7 @@ textarea{
     /* ------------ Home (600px) ------------ */
 
     #intro{
-        padding:300px 50px 100px 50px;
+        padding:150px 50px 150px 50px;
 
     }
 
@@ -2274,7 +2222,7 @@ textarea{
     /* about page */
 
     #about, #contact{
-        padding-top:345px;
+        padding-top:80px;
     }
 
     .aboutpage1{
@@ -2347,7 +2295,7 @@ textarea{
 
     #intro{
         padding-left: 100px;
-        padding-top:400px;
+        padding-top:150px;
         padding-bottom:200px;
 
     }
