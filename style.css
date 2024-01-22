@@ -262,7 +262,7 @@ main{
 }
 
 .blob-b {
-	min-height: 100vh;
+	min-height: 500px;
 	overflow: hidden;
 	position:absolute;
 	width: 70%;
@@ -1529,6 +1529,16 @@ main{
     display: flex;
     flex-direction: column;
 }
+
+#contact::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+.example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 
 #contact, #about{
     padding: 80px 30px 0 30px;
