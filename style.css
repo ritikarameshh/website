@@ -223,27 +223,32 @@ main{
     font-size:26px;
     /* animation:zoomIn;
     animation-duration: .3s; */
-    color:#5d5d5d;
+    color:#7c7c7c;
     padding-left:5px;
-    padding-top:10px;
+    padding-top:5px;
     z-index: 1;
     
 }
 
 #intro h3 b{
     text-decoration: none;
-    color:black;
+    color:#000000;
 }
 
 /* note: h4 a is for the zelle link */
 #intro h4, #intro h4 a{
-    padding-top:10px;
+    padding-top:20px;
     color:#DF5889;
     font-size:20px;
     line-height: 30px;
     font-weight: 500;
     z-index: 1;
+   
 
+}
+
+#intro span{
+    font-size:40px;
 }
 
 
