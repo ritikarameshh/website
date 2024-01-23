@@ -1826,7 +1826,7 @@ textarea{
     .nav-menu{
         padding-top:20px;
         padding-bottom:20px;
-    
+
     }
 
     .navbar{
@@ -2254,11 +2254,14 @@ textarea{
 @media only screen and (min-width: 768px) {
     .nav-menu{
         padding:0;
+        
     
     }
 
     .nav-link{
         padding:0;
+        
+        
     
     }
 
