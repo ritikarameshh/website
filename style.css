@@ -624,11 +624,11 @@ main{
 }
 
 .about-image img{
-    width:80%;
+    width:100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top:40px;
+    padding-top:5px;
     padding-bottom:20px;
 
 }
@@ -718,7 +718,7 @@ main{
 
 #vision h4{
     color: #08669D;
-    text-align: center;
+    /* text-align: center; */
 
 }
 
@@ -736,6 +736,13 @@ main{
 .trial{
     max-width:900px;
 }
+
+/* #vision .about{
+    display: grid;
+    grid-row: 1fr;
+   
+} */
+
 
 #vision .research1 img{
     width: 100px;
@@ -761,6 +768,14 @@ main{
     flex-direction: column;
     
 }
+
+#vision .section4 h4{
+
+    text-align: center;
+
+}
+
+
 
 #vision .research2 img{
     width:200px;
@@ -1996,6 +2011,7 @@ textarea{
 
     #vision .about-image img{
         width: 500px;
+        
     }
 
     #vision .trigger, #vision .action, #vision .investment, #vision .rewards{
@@ -2013,7 +2029,7 @@ textarea{
     }
 
     #vision .trigger, #vision .action, #vision .investment{
-        border-bottom: 3px solid #000000;
+        border-bottom: 2px dashed #A5DEE7;
 
     } 
 
@@ -2021,8 +2037,12 @@ textarea{
         align-self: rights;
     } */
 
-    #vision .app{
+    #vision .app, #vision .app1{
         padding-bottom: 20px;
+    }
+
+    #vision .app1{
+        text-align: right;
     }
 
     #vision .incentive1{
@@ -2050,10 +2070,10 @@ textarea{
         padding:0 40px 0 40px;
     }
 
-    .process-content section{
-        padding-top:20px;
+    /* .process-content section{
+        /* padding-top:20px; */
     
-    }
+    
 
     .process-content h4{
         padding-bottom: 8px;
@@ -2270,6 +2290,17 @@ textarea{
         width:200px;
         
     }
+
+    /* ------------------ Vision (786px) ------------------ */
+   
+    #vision .about-image img{
+        width:60%;
+        
+        
+    
+    }
+
+
     /* ------------------ ForHealth (786px) ------------------ */
     .participants-task{
         display: grid;
@@ -2375,21 +2406,10 @@ textarea{
 
     }
 
-    /* #home {
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-    } */
-
     #recent-work img{
         width:100%;
     }
 
-
-    /* .categories{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-
-    } */
 
 /* ------------ ALL PROJECTS ------------ */
     .project h2{
@@ -2436,15 +2456,11 @@ textarea{
         padding-top:0;
     }
 
-    
-        /* grid-column-star
 
     /* ------------------ Vision Page (1024) ------------------ */
     #vision .trigger, #vision .action, #vision .investment, #vision .rewards{
-        /* padding:40px; */
-        /* margin-top:25px; */
-        align-items: center;
-        text-align: center;
+        /* align-items: center;
+        text-align: center; */
         
     }
 
