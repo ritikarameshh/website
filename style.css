@@ -700,8 +700,12 @@ main{
 
 .section4 img{
     width:100%;
+    padding-bottom:20px;
+    padding-top:20px;
 
 }
+
+
 
 .section5 img{
     width: 100%;
@@ -1596,11 +1600,6 @@ main{
 
 }
 
-#lively .section2 h4{
-    /* padding-top:20px; */
-
-}
-
 #lively .section2 p, #zelle .section2 p{
     padding-top:5px;
     padding-bottom:30px;
@@ -1627,7 +1626,12 @@ main{
 
 #lively .section4 p, #lively .section5 p, #lively .section6 p{
     padding-bottom:15px;
+    padding-top:5px
 
+}
+
+#lively .journey {
+    padding-top: 20px;
 }
 
 
