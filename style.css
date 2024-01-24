@@ -2316,6 +2316,10 @@ textarea{
 
     }
 
+    #author .about1, #author .about2, #author .about3 {
+        padding-bottom:10px;
+    }
+
 
     #author .section3 img{
         width:500px;
@@ -2331,8 +2335,8 @@ textarea{
        
     }
 
-    #author .project h4{
-        padding-top:5px;
+    #author .section2 h4{
+        padding-top:7px;
     }
 
     #author .section6 h4, #author .section8 h4{
