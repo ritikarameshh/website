@@ -601,7 +601,36 @@ main{
 .section1 .summary{
     text-align: center;
     padding-top:5px;
-    padding-bottom:50px;
+    padding-bottom:40px;
+    max-width: 400px;
+    font-weight: 500;
+    
+}
+
+#zelle .section1 p{
+    color: #6424cc;
+    
+}
+
+#vision .section1 p{
+    background: -webkit-linear-gradient(#284150, #CBE4E8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+#lively .section1 p{
+    background: -webkit-linear-gradient(#FCB809, #00B9B9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 200px;
+    
+}
+
+#author .section1 p{
+    background: -webkit-linear-gradient(#2D838D, #D74452);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
 }
 
@@ -817,10 +846,15 @@ main{
 
 .process-content h4{
     text-align: center;
-    margin-top:50px;
+    margin-top:100px;
+    margin-bottom:10px;
     border-bottom:3px solid #08669D;
     border-top:3px solid #08669D;
     padding:10px;
+}
+
+#vision .section5 p{
+    padding-bottom:25px;
 }
 
 #vision .wireframe h4{
@@ -1300,9 +1334,15 @@ main{
     padding-top:0;
 }
 
-#author .section3 section{
-    margin-bottom:15px;
-    margin-top:15px;
+#author .section3 {
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+
+}
+
+#author .section3 ol{
+    padding-top:10px;
 }
 
 
@@ -1319,9 +1359,18 @@ main{
 }
 
 #author .about-image span{
-    padding-left:30px;
+    /* padding-left:30px; */
     font-size: 15px;
     font-weight: 500;
+}
+
+#author .about-image a{
+    max-width: 200px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+    color:black;
+   
 }
 
 #author .section3 img{
@@ -2376,6 +2425,12 @@ textarea{
 
     }
 
+    #author .section3 {
+        
+        gap:100px;
+        
+    }
+
     /* ------------------ Contact / About Page (600px) ------------------ */
 
     #contact{
@@ -2602,10 +2657,8 @@ textarea{
 
 
     /* ------------------ Vision Page (1024) ------------------ */
-    #vision .trigger, #vision .action, #vision .investment, #vision .rewards{
-        /* align-items: center;
-        text-align: center; */
-        
+    #vision .section5 p{
+        padding-bottom:45px;
     }
 
     /* ------------------ Zelle Page ------------------ */
