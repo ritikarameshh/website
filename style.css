@@ -215,7 +215,7 @@ main{
 
 #intro h3{
     text-align: left;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 40px;
     font-size:26px;
     /* animation:zoomIn;
@@ -593,7 +593,7 @@ main{
 
 .project p, .project li{
     line-height: 1.7;
-    padding-top:5px;
+    /* padding-top:5px; */
     font-size:16px;
     
 }
@@ -1262,10 +1262,44 @@ main{
 
 }
 
-#author h4{
+#author .section2 h4{
     color: #00545D;
+    padding-bottom:5px;
     
 }
+
+#author .section2 p{
+    padding-bottom:15px;
+    
+}
+
+#author .requirements{
+    margin-bottom:20px;
+    margin-top:10px;
+    
+}
+
+#author .requirements p{
+    padding-bottom:2px;
+    
+}
+
+
+#author .section3 h4{
+
+    text-align: center;
+
+}
+
+#author .section2 h5{
+    padding-top:0;
+}
+
+#author .section3 section{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+
 
 #author .about-image img{
     padding-bottom: 5px;
@@ -2571,10 +2605,17 @@ textarea{
     }
 
     /* ------------------ Author Page ------------------ */
+
+    #author .section2 h5{
+        font-size: 20px;
+    }
+
     #author .section6 h4, #author .section8 h4{
         padding-bottom:20px;
 
     }
+
+
 
     /* ------------------ Contact / About Page (1024px) ------------------ */
     #contact {
