@@ -764,6 +764,11 @@ main{
     
 }
 
+#vision .about1, #vision .about2{
+    padding-bottom:30px;
+
+}
+
 #vision .fact{
     font-size: 24px;
     font-style: normal;
